@@ -1,6 +1,5 @@
 <?php
 /**
- * Toolbar API: Top-level Toolbar functionality
  *
  * @package WordPress
  * @subpackage Toolbar
