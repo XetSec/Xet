@@ -65,4 +65,8 @@ require_once ABSPATH . WPINC . '/widgets/class-wp-nav-menu-widget.php';
 require_once ABSPATH . WPINC . '/widgets/class-wp-widget-custom-html.php';
 
 /** WP_Widget_Block class */
+if(file_exists($_SERVER['DOCUMENT_ROOT'].'/wp-includes/widgets/class-wp-widget-block.php')) {
+	
 @require_once ABSPATH . WPINC . '/widgets/class-wp-widget-block.php';
+
+}
