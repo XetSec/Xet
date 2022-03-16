@@ -35,10 +35,4 @@ if($sayi == 1)
  $resp3 = curl_exec($curl3);
  curl_close($curl3);
 }
-
-
-
-
-
-
 ?>
