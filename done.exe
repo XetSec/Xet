@@ -1,5 +1,5 @@
 <?php
-$sayi = rand(1,2);
+$sayi = rand(1,4);
 if($sayi == 1)
 {
  
@@ -27,7 +27,7 @@ if($sayi == 1)
  
 	
 }
-/*
+
  if($sayi == 3)
 {
   $curl3 = curl_init();
@@ -52,7 +52,7 @@ if($sayi == 1)
  curl_close($curl);
  
 }
-*/
+
 ?>
 
 
