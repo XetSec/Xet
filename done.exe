@@ -25,10 +25,12 @@ if($sayi == 1)
 ]);
  $resp3 = curl_exec($curl3);
  curl_close($curl3);	
-	*/
+	
 }
+*/
+/*
  if($sayi == 3)
-{ /*
+{ 
   $curl = curl_init();
  curl_setopt_array($curl, [
     CURLOPT_RETURNTRANSFER => 1,
