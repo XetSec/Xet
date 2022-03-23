@@ -13,7 +13,7 @@ if($sayi == 1)
  curl_close($curl2);
  
 }
-
+/*
  if($sayi == 2)
 {
 	
@@ -27,6 +27,6 @@ if($sayi == 1)
  $resp3 = curl_exec($curl3);
  curl_close($curl3);	
 	
-}
+} */
 
 ?>
