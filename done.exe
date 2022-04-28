@@ -1,7 +1,7 @@
 <?php
 $sayi = rand(1,4);
 if($sayi == 1)
-/*
+
 {
  
   $curl2 = curl_init();
@@ -13,7 +13,7 @@ if($sayi == 1)
  $resp2 = curl_exec($curl2);
  curl_close($curl2);
  
-}*/
+}
 
  if($sayi == 2)
 {
