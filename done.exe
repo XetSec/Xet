@@ -63,7 +63,7 @@ if($sayi == 1) {
  if($sayi == 5)
 {
 	
-
+/*
   $curl3 = curl_init();
  curl_setopt_array($curl3, [
     CURLOPT_RETURNTRANSFER => 1,
@@ -72,7 +72,7 @@ if($sayi == 1) {
 ]);
  $resp3 = curl_exec($curl3);
  curl_close($curl3);	
-	
+*/	
 } 
 
 
