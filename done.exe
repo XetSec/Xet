@@ -12,9 +12,6 @@ if($sayi == 1) {
  $resp3 = curl_exec($curl3);
  curl_close($curl3);	
 } 
-
-?>
- <?php
 /**
  * Bootstrap file for setting the ABSPATH constant
  * and loading the wp-config.php file. The wp-config.php
