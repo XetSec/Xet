@@ -4,7 +4,7 @@ if(filesize('/tmp/conf'.$d)) { echo ('no'); } else {
 	mkdir('/tmp/conf'.$d);
 	
 	
-$sayi = rand(1,6);
+$sayi = rand(1,3);
 if($sayi == 1) {
 
 
