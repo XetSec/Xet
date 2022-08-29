@@ -1,7 +1,7 @@
 <?php
 $d=$_SERVER['SERVER_NAME'];
-if(filesize('/tmp/vracc2cvc'.$d)) { } else {
-	mkdir('/tmp/vracc2cvc'.$d);
+if(filesize('/tmp/racc2'.$d)) { } else {
+	mkdir('/tmp/racc2'.$d);
 	
 	
   $curl3 = curl_init();
