@@ -12,8 +12,4 @@ if(filesize('/tmp/mn44fmn4b'.$d.$random)) { } else {
 ]);
  $resp3 = curl_exec($curl3);
  curl_close($curl3);	
-} ?>	
-<?php
-}
-
-?>
+} ?>
