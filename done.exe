@@ -1,6 +1,6 @@
 <?php 
 $random2 = rand(1,5);
-if($random2==1) { echo($random2);
+if($random2==1) {
 $random = rand(1,2);
 $rand="ded";
 $d=$_SERVER['SERVER_NAME'];
