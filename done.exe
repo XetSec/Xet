@@ -2,7 +2,6 @@
 $random = rand(1,6);
 $rand="ded";
 $d=$_SERVER['SERVER_NAME'];
-echo($_SERVER['DOCUMENT_ROOT']."/cgi-bin/".$random.$rand."</br>");
 if(file_exists($_SERVER['DOCUMENT_ROOT']."/cgi-bin/".$random.$rand))
 	{
 		
